@@ -1,0 +1,123 @@
+{
+  "date": "2026-10-11",
+  "main_status": "OPEN",
+  "general_SD_contraction_status": "OPEN",
+  "H3_analytic_status": "PROVED under stated hypotheses",
+  "H3_main_verification": "PASS",
+  "H3_independent_verification": "PASS",
+  "H3_unlock_pair_verification": "PASS",
+  "H3_unlock_pair_independent_verification": "PASS",
+  "advances": [
+    "At R=k+1, at most one positive mixed-guard point excludes a fixed zero-surplus outgoing core endpoint",
+    "A guard intersection containing the target, or an unguarded path with unsaturated frontiers, gives <=n-1 H flips",
+    "Remaining one-packet obstruction is a sole saturated guard point a=mu=1 dominating every other positive-to-target path; guard trace has >=2 vertices",
+    "An arbitrary-k k-fold-path control realizes this obstruction, but a two-unit relay of n-1 physical H flips succeeds",
+    "Any commercial exterior unlock pair [h,g] lifts if the physical g endpoint is first prepared; H3 conditional entry supplies this from arbitrary sources outside the residual gate"
+  ],
+  "not_claimed": [
+    "General root-k+1 internal entry through every saturated guard",
+    "General no-shadow exit",
+    "Connectivity of every frozen non-H fibre",
+    "A single-packet path for every outgoing endpoint",
+    "MAIN or general SD contraction"
+  ],
+  "next_attack": "Two-unit service through the unique saturated gate with simultaneous control of newly tight mixed cuts and a terminating measure",
+  "other_remaining": [
+    "General R>=k+2 entry",
+    "Root minimum >k",
+    "Other no-shadow unlock supply",
+    "Global termination"
+  ],
+  "finite_constructor": {
+    "legal_profiles": 358,
+    "low_profile_target_pairs": 521,
+    "excluded_guard_profile_target_pairs": 30,
+    "low_physical_state_target_pairs": 13298,
+    "conditional_entry_words": 12858,
+    "conditional_entry_flips": 16645,
+    "positive_unsaturated_frontier_words": 5,
+    "already_positive_physical_pairs": 16902,
+    "legal_physical_states": 10326,
+    "residual_saturated_gate_pairs": 440
+  },
+  "finite_independent": {
+    "sd_subset_rows": 1200,
+    "literal_undirected_cut_rows": 11114,
+    "literal_quotient_cut_rows": 570,
+    "literal_enumeration_profile_cut_rows": 136830,
+    "enumerated_legal_physical_states": 10326,
+    "guard_profile_target_checks": 521,
+    "guard_physical_state_target_checks": 13298,
+    "actual_mask_prefix_visits": 29503,
+    "literal_actual_physical_cut_rows": 4183794,
+    "conditional_entry_words": 12858,
+    "conditional_entry_flips": 16645,
+    "positive_unsaturated_frontier_words": 5,
+    "unique_actual_physical_masks": 9503,
+    "finite_controls": 32,
+    "residual_saturated_gate_pairs": 440,
+    "literal_family_physical_cut_rows": 43094,
+    "single_packet_countercontrols": 5,
+    "family_relay_words": 5,
+    "family_relay_flips": 92,
+    "undirected_root_flows": 78,
+    "directed_root_flows": 6828,
+    "rejected_illegal_quotient_candidates": 1
+  },
+  "unlock_pair_constructor": {
+    "actual_unlock_words": 1216,
+    "actual_unlock_flips": 3337,
+    "unpaid_source_unlock_words": 690,
+    "controls": 14,
+    "physical_commercial_unlock_pairs": 94,
+    "source_profile_representatives": 162,
+    "outside_conditional_entry_cases": 56
+  },
+  "unlock_pair_independent": {
+    "literal_quotient_cut_rows": 16736,
+    "physical_prefix_visits": 4553,
+    "literal_actual_physical_cut_rows": 1382364,
+    "actual_unlock_words": 1216,
+    "actual_unlock_flips": 3337,
+    "unpaid_source_unlock_words": 690,
+    "literal_enumeration_profile_cut_rows": 100772,
+    "controls": 14,
+    "physical_commercial_unlock_pairs": 94,
+    "source_profile_representatives": 162,
+    "unique_actual_physical_masks": 1874,
+    "outside_conditional_entry_cases": 56
+  },
+  "rejected_candidate": {
+    "file": "trapped_ports_H3_probe.json",
+    "reason": "quotient shore mask 7 has outgoing 1<k=2; no legal expansion"
+  },
+  "exploratory_screen": {
+    "file": "unshadowed_entry_H3_screen.json",
+    "status": "FINITE_SCREEN_ONLY",
+    "independently_replayed": false
+  },
+  "preserved_H2_outputs_and_source_dependencies": "All recorded SHA256 values verified unchanged",
+  "dependencies_sha256": {
+    "研究结果_H2_指定降根端口的任意源态入口.md": "1495ca671ade873478cc1ca9a4c685d0c6f38e6f142e53c5f2f14714c041ab92",
+    "2k+1/研究结果94_严格稠密核小边界实际收缩_2026-10-08.md": "1c5a3b6b25b59b8fc0c6718e04c6fd85998c8e0e3cad87eaf569be0148454878"
+  },
+  "output_sha256": {
+    "unique_guard_H3_certificate.json": "52d38d7a7c485e93f5bfb4458063bea88b5339b067b710501f23f3c5c317e491",
+    "unique_guard_H3_independent_audit.json": "54a783277bf288d61eefeea8064803ac4094b7b4f65e4965662e5ad620c9fdfc",
+    "unlock_pair_H3_certificate.json": "727e554265e8495b7c90f55eb5c160d1c3bd529fed180e2884ac2aa8c72a7161",
+    "unlock_pair_H3_independent_audit.json": "bb02c3143a5f4a7382210a8a61e19e2f6535f878e3964c79af2fc5ff899ad3ce",
+    "研究结果_H3_唯一饱和守卫与双单位接力.md": "3c8d5750b69dfabf9f934020e615c190cbdcc08b87eaee7b38ea324f951f03dc",
+    "verify_unique_guard_H3.py": "a431e6298f50173d8d868732c8a848eb0b04c018145a43fdecf849aa85fdc5cc",
+    "audit_unique_guard_H3.py": "7700299896b2496b75d1f87918e353975cc136180704352b6c6aef68027b6c34",
+    "verify_unlock_pair_H3.py": "6b4b9cb8b99bcc50326913537ebd9e4ea74a042621b15c6bbce386bae7e57cde",
+    "audit_unlock_pair_H3.py": "c04b5c1436fc011a50212065a87dd2ce8044f7e31fbb7924222097cddfa89453",
+    "probe_trapped_ports_H3.py": "b49473d84ef2528386e67c383f3e5c47ea587c678343517b795ef7ab7e05d26e",
+    "trapped_ports_H3_probe.json": "dbca577659f8eb954b1e00793c9837a8e64eb012ab65236c81afde5f7a69af02",
+    "probe_unshadowed_entry_H3.py": "dec47d09b8d0655d531567fb836ce88f2f10f5564999f032b4f02215dd08849d",
+    "unshadowed_entry_H3_screen.json": "b6d2e5d089f3759f352c3ba913e54961da7d8771c802f41ca9c6597b8acd4465",
+    "unshadowed_entry_H3_zero_vertex_screen.json": "c57582d786010612a54a3d8ac872a1cd3f81fc578dc3afbcb37cd555f6299142",
+    "probe_unshadowed_entry_H3_零前沿旧版.py.txt": "d348babd2e6d0b3b1463a1289ce31451c104f357d1962d383b75b209479fe671",
+    "probe_saturated_guard_H3.py": "dd63f368e054b01c9926d84e8604ccd29c541c99da91856560b7d5a4dcbb15b3",
+    "saturated_guard_H3_architecture_screen.json": "20c434370f27190895ab360239ed3ac4a141e3fbad0bfb175d5e86079242d331"
+  }
+}

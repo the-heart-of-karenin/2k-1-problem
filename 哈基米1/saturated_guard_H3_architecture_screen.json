@@ -1,0 +1,12 @@
+{
+  "status": "FINITE_SCREEN_ONLY",
+  "q": 1,
+  "stats": {
+    "sd_cores": 5,
+    "core_orientations": 41632,
+    "saturated_guard_architectures": 27130,
+    "target_pairs": 1314
+  },
+  "failure": null,
+  "elapsed_seconds": 6.130950099999609
+}

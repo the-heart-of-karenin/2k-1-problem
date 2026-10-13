@@ -1,0 +1,21 @@
+{
+  "status": "PASS",
+  "stats": {
+    "literal_quotient_cut_rows": 16736,
+    "physical_prefix_visits": 4553,
+    "literal_actual_physical_cut_rows": 1382364,
+    "actual_unlock_words": 1216,
+    "actual_unlock_flips": 3337,
+    "unpaid_source_unlock_words": 690,
+    "literal_enumeration_profile_cut_rows": 100772,
+    "controls": 14,
+    "physical_commercial_unlock_pairs": 94,
+    "source_profile_representatives": 162,
+    "unique_actual_physical_masks": 1874,
+    "outside_conditional_entry_cases": 56
+  },
+  "certificate_sha256": "727e554265e8495b7c90f55eb5c160d1c3bd529fed180e2884ac2aa8c72a7161",
+  "auditor_sha256": "c04b5c1436fc011a50212065a87dd2ce8044f7e31fbb7924222097cddfa89453",
+  "scope": "one physical source per complete degree profile, all qualifying h/g pairs in saved controls",
+  "method": "independent direct physical cut counts; no constructor import"
+}

@@ -1,0 +1,66 @@
+{
+  "date": "2026-10-11",
+  "timezone": "Asia/Shanghai",
+  "directory": "D:\\Users\\Desktop\\2k+1_complete_2026-10-07\\哈基米1",
+  "source_directory": "D:\\Users\\Desktop\\2k+1_complete_2026-10-07\\2k+1",
+  "source_frontier": 148,
+  "main_status": "OPEN",
+  "general_SD_contraction_status": "OPEN",
+  "half_solved_claim": false,
+  "H1": {
+    "analytic_status": "PROVED under explicitly stated hypotheses",
+    "main_verification": "PASS",
+    "independent_verification": "PASS",
+    "hypotheses": [
+      "Strict minimal k-dense proper core, q>=1",
+      "Source extension paid by a capacity root-k shadow",
+      "Root neighbour: both states have capacity shadows",
+      "Exterior neighbour: half L1 change of per-core-vertex activity obligations <=q"
+    ],
+    "advances": [
+      "Physical root-k shadow bases exchange within a fixed legal upper state",
+      "All paid extensions merge even under different shadows; root ports accurately return",
+      "Root-star words need no fixed k-port baseline",
+      "Exterior single flips use one common physical preparation under the per-vertex budget"
+    ],
+    "controls": [
+      "Root-k shadow existence does not imply a capacity shadow; arbitrary-k five-point family exits in 3k-3 steps",
+      "q=1 shadows can differ by k/2 physical identities while per-vertex activity obligations agree; one actual flip suffices"
+    ]
+  },
+  "finite_verification": {
+    "legal_quotient_signatures": 3118,
+    "shadow_bases": 11911,
+    "capacity_shadow_bases": 10299,
+    "basis_exchange_checks": 79440,
+    "ordinary_actual_words": 67,
+    "ordinary_actual_flips": 1241,
+    "unpaid_entry_family_cases": 7,
+    "large_identity_change_family_cases": 4,
+    "independent_literal_full_cut_checks": 850374,
+    "independent_root_flow_checks": 640
+  },
+  "first_attack": {
+    "status": "UNPROVED / FINITE_SCREEN_ONLY",
+    "candidate": "Arbitrary expansion entry for a legal root decrease from k+1 to k",
+    "boundary_signatures": 4300,
+    "legal_physical_states": 1004109,
+    "scope": "Random boundary signatures, complete internal-state enumeration on each signature; not a universal proof"
+  },
+  "next_core_interfaces": [
+    "Unpaid source to the common paid component",
+    "Current exterior directions with no root-k shadow",
+    "Actual exterior transitions whose per-core-vertex common obligation exceeds q",
+    "Global supply and strict termination for all original graphs"
+  ],
+  "dependency_sha256": {
+    "研究结果94_严格稠密核小边界实际收缩_2026-10-08.md": "1c5a3b6b25b59b8fc0c6718e04c6fd85998c8e0e3cad87eaf569be0148454878",
+    "研究结果148_极小坏岸祖先与逐端口共同保护_2026-10-10.md": "6257bc6f613997ecbc5815d61753e6cae122ef1520e7b0a9883a11649d8f043e",
+    "研究结果146_共同根紧层的树缺额与非OSP核供给反例_2026-10-10.md": "f1b01918c02be4a660574dfd3ba7d35721d0e0e20c07ea5673c3e487eda9e673"
+  },
+  "outputs": {
+    "variable_shadows_certificate.json": "d0c85d50fad3cdd6672f2b9de80d1e37250224823651f5a42180584116ce0ca0",
+    "variable_shadows_independent_audit.json": "deb9b22706d0a6f64509204c4d0ef0cd568f29358e2a3144f1d6404665d5e9d0",
+    "研究结果_H1_可变影子基与跨环境一步交接.md": "105ba64989c968fa5a16b99cceb40d21c99a43862fe1d9f9bd7b09422743c4ec"
+  }
+}

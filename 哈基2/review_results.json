@@ -1,0 +1,1136 @@
+{
+  "status": "PASS",
+  "root_cap_review": {
+    "old_scope": "Every old tested root has eta=k; none tested eta>k.",
+    "new_census_audits": [
+      {
+        "name": "connected_outside_2_pairs_k2",
+        "partition": {
+          "eta": 3,
+          "maximizing_partition": [
+            [
+              1,
+              2
+            ],
+            [
+              3,
+              4
+            ]
+          ],
+          "partitions_examined": 15
+        },
+        "lambda": 5,
+        "preparation_witness": {
+          "start": 3247,
+          "cap": 4,
+          "word": [
+            0,
+            3
+          ],
+          "heights": [
+            4,
+            4,
+            3
+          ],
+          "minimum_full_outcuts": [
+            2,
+            2,
+            2
+          ],
+          "blocked_root_outgoing": [
+            {
+              "edge_id": 3,
+              "shore_mask": 29,
+              "outcut_after": 1
+            },
+            {
+              "edge_id": 5,
+              "shore_mask": 29,
+              "outcut_after": 1
+            },
+            {
+              "edge_id": 10,
+              "shore_mask": 7,
+              "outcut_after": 1
+            },
+            {
+              "edge_id": 11,
+              "shore_mask": 7,
+              "outcut_after": 1
+            }
+          ]
+        },
+        "independent_census": {
+          "fully_legal": 5408,
+          "queries": 4128,
+          "nontrivial_queries": 2848,
+          "method": "all full cuts, capped multi-source BFS"
+        }
+      },
+      {
+        "name": "connected_outside_3_pairs_k2",
+        "partition": {
+          "eta": 4,
+          "maximizing_partition": [
+            [
+              1,
+              2
+            ],
+            [
+              3,
+              4
+            ],
+            [
+              5,
+              6
+            ]
+          ],
+          "partitions_examined": 203
+        },
+        "lambda": 5,
+        "preparation_witness": {
+          "start": 410799,
+          "cap": 5,
+          "word": [
+            0,
+            3
+          ],
+          "heights": [
+            5,
+            5,
+            4
+          ],
+          "minimum_full_outcuts": [
+            2,
+            2,
+            2
+          ],
+          "blocked_root_outgoing": [
+            {
+              "edge_id": 3,
+              "shore_mask": 125,
+              "outcut_after": 1
+            },
+            {
+              "edge_id": 5,
+              "shore_mask": 125,
+              "outcut_after": 1
+            },
+            {
+              "edge_id": 10,
+              "shore_mask": 103,
+              "outcut_after": 1
+            },
+            {
+              "edge_id": 17,
+              "shore_mask": 31,
+              "outcut_after": 1
+            },
+            {
+              "edge_id": 18,
+              "shore_mask": 31,
+              "outcut_after": 1
+            }
+          ]
+        }
+      },
+      {
+        "name": "connected_outside_2_pairs_k3",
+        "partition": {
+          "eta": 5,
+          "maximizing_partition": [
+            [
+              1,
+              2
+            ],
+            [
+              3,
+              4
+            ]
+          ],
+          "partitions_examined": 15
+        },
+        "lambda": 7,
+        "preparation_witness": {
+          "start": 118111,
+          "cap": 6,
+          "word": [
+            0,
+            4
+          ],
+          "heights": [
+            6,
+            6,
+            5
+          ],
+          "minimum_full_outcuts": [
+            3,
+            3,
+            3
+          ],
+          "blocked_root_outgoing": [
+            {
+              "edge_id": 4,
+              "shore_mask": 29,
+              "outcut_after": 2
+            },
+            {
+              "edge_id": 6,
+              "shore_mask": 29,
+              "outcut_after": 2
+            },
+            {
+              "edge_id": 8,
+              "shore_mask": 29,
+              "outcut_after": 2
+            },
+            {
+              "edge_id": 14,
+              "shore_mask": 7,
+              "outcut_after": 2
+            },
+            {
+              "edge_id": 15,
+              "shore_mask": 7,
+              "outcut_after": 2
+            },
+            {
+              "edge_id": 16,
+              "shore_mask": 7,
+              "outcut_after": 2
+            }
+          ]
+        }
+      },
+      {
+        "name": "three_5_port_stars",
+        "partition": {
+          "eta": 6,
+          "maximizing_partition": [
+            [
+              1
+            ],
+            [
+              2
+            ],
+            [
+              3
+            ]
+          ],
+          "partitions_examined": 5
+        },
+        "lambda": 5,
+        "independent_census": {
+          "fully_legal": 8000,
+          "queries": 7000,
+          "nontrivial_queries": 6000,
+          "method": "all full cuts, capped multi-source BFS"
+        }
+      }
+    ],
+    "new_queries": 910694,
+    "new_nontrivial_queries": 812570,
+    "limits": "Only four specified graphs; connected outside examples are chains of dense pairs joined by single bridges. Full independent state census only for the two m=15 inputs; other inputs get independent static and witness audits."
+  },
+  "port_cube_review": {
+    "twenty_point_anchor": {
+      "encoding": "activity masks index incoming_ids; physical state bit1 reverses source arc",
+      "incoming_ids": [
+        2,
+        3,
+        13,
+        18,
+        45,
+        48,
+        49
+      ],
+      "n": 20,
+      "m": 50,
+      "k": 2,
+      "core": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        8,
+        9
+      ],
+      "source_arcs": [
+        [
+          0,
+          6
+        ],
+        [
+          7,
+          0
+        ],
+        [
+          0,
+          8
+        ],
+        [
+          0,
+          9
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          7,
+          1
+        ],
+        [
+          8,
+          1
+        ],
+        [
+          9,
+          1
+        ],
+        [
+          5,
+          2
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          8,
+          2
+        ],
+        [
+          2,
+          9
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          6,
+          3
+        ],
+        [
+          3,
+          7
+        ],
+        [
+          3,
+          8
+        ],
+        [
+          9,
+          3
+        ],
+        [
+          5,
+          4
+        ],
+        [
+          6,
+          4
+        ],
+        [
+          4,
+          7
+        ],
+        [
+          4,
+          8
+        ],
+        [
+          4,
+          9
+        ],
+        [
+          16,
+          10
+        ],
+        [
+          10,
+          17
+        ],
+        [
+          18,
+          10
+        ],
+        [
+          10,
+          19
+        ],
+        [
+          11,
+          15
+        ],
+        [
+          17,
+          11
+        ],
+        [
+          11,
+          18
+        ],
+        [
+          19,
+          11
+        ],
+        [
+          15,
+          12
+        ],
+        [
+          12,
+          16
+        ],
+        [
+          18,
+          12
+        ],
+        [
+          12,
+          19
+        ],
+        [
+          13,
+          15
+        ],
+        [
+          16,
+          13
+        ],
+        [
+          17,
+          13
+        ],
+        [
+          13,
+          18
+        ],
+        [
+          19,
+          13
+        ],
+        [
+          15,
+          14
+        ],
+        [
+          14,
+          16
+        ],
+        [
+          14,
+          17
+        ],
+        [
+          18,
+          14
+        ],
+        [
+          14,
+          19
+        ],
+        [
+          15,
+          0
+        ],
+        [
+          10,
+          5
+        ],
+        [
+          1,
+          16
+        ],
+        [
+          6,
+          11
+        ],
+        [
+          17,
+          2
+        ],
+        [
+          12,
+          7
+        ]
+      ],
+      "all_activity_sets": 128,
+      "nonempty_free_cubes": 20,
+      "B3_vs_full_cube_mismatches": 0,
+      "deletion_vs_full_cube_mismatches": 0,
+      "source_states_classified_by_root_pair_flows": 128,
+      "ordered_nonfree_endpoint_count": 0,
+      "B3_extra_rejections_after_vertex_capacity_and_terminal_quotient": 0,
+      "ordered_but_not_universal_witness": null,
+      "selected_legal_word_full_cut_audits": {
+        "word": [
+          48,
+          45,
+          2
+        ],
+        "prefix_masks": [
+          0,
+          32,
+          48,
+          49
+        ],
+        "cuts": {
+          "0": {
+            "minimum_outcut": 2,
+            "minimizing_shore": 2
+          },
+          "32": {
+            "minimum_outcut": 2,
+            "minimizing_shore": 2
+          },
+          "48": {
+            "minimum_outcut": 2,
+            "minimizing_shore": 2
+          },
+          "49": {
+            "minimum_outcut": 2,
+            "minimizing_shore": 1
+          }
+        }
+      },
+      "full_cut_rows_independently_checked": 4194296,
+      "limits": "All incoming-port subsets at one specified source; no internal preparation or arbitrary-source claim. Full-cut enumeration cross-checks saved words/witnesses, not every classified state."
+    },
+    "four_point_ordered_counterexample": {
+      "encoding": "activity masks index incoming_ids; physical state bit1 reverses source arc",
+      "incoming_ids": [
+        0,
+        1,
+        6,
+        10,
+        11
+      ],
+      "n": 4,
+      "m": 12,
+      "k": 2,
+      "core": [
+        1,
+        2
+      ],
+      "source_arcs": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          3,
+          1
+        ]
+      ],
+      "all_activity_sets": 32,
+      "nonempty_free_cubes": 8,
+      "B3_vs_full_cube_mismatches": 0,
+      "deletion_vs_full_cube_mismatches": 0,
+      "source_states_classified_by_root_pair_flows": 32,
+      "ordered_nonfree_endpoint_count": 1,
+      "B3_extra_rejections_after_vertex_capacity_and_terminal_quotient": 2,
+      "ordered_but_not_universal_witness": {
+        "activity_mask": 24,
+        "activity_ids": [
+          10,
+          11
+        ],
+        "legal_order": [
+          11,
+          10
+        ],
+        "legal_prefix_activity_masks": [
+          0,
+          16,
+          24
+        ],
+        "bad_order": [
+          10,
+          11
+        ],
+        "bad_prefix_activity_mask": 8,
+        "bad_prefix_is_vertex_legal": true,
+        "violated_B3_row": {
+          "core_trace_mask": 1,
+          "external_trace_mask": 1,
+          "shore_mask": 3,
+          "paid_beta": 0,
+          "aX": 0,
+          "alpha": 0,
+          "j": 1,
+          "negative_activity_mask": 8
+        },
+        "bad_shore_outcut": 1,
+        "full_cut_audits": {
+          "0": {
+            "minimum_outcut": 2,
+            "minimizing_shore": 2
+          },
+          "8": {
+            "minimum_outcut": 1,
+            "minimizing_shore": 3
+          },
+          "16": {
+            "minimum_outcut": 2,
+            "minimizing_shore": 8
+          },
+          "24": {
+            "minimum_outcut": 2,
+            "minimizing_shore": 1
+          }
+        }
+      },
+      "selected_legal_word_full_cut_audits": {
+        "word": [
+          11,
+          10
+        ],
+        "prefix_masks": [
+          0,
+          16,
+          24
+        ],
+        "cuts": {
+          "0": {
+            "minimum_outcut": 2,
+            "minimizing_shore": 2
+          },
+          "8": {
+            "minimum_outcut": 1,
+            "minimizing_shore": 3
+          },
+          "16": {
+            "minimum_outcut": 2,
+            "minimizing_shore": 8
+          },
+          "24": {
+            "minimum_outcut": 2,
+            "minimizing_shore": 1
+          }
+        }
+      },
+      "full_cut_rows_independently_checked": 56,
+      "limits": "All incoming-port subsets at one specified source; no internal preparation or arbitrary-source claim. Full-cut enumeration cross-checks saved words/witnesses, not every classified state.",
+      "lambda": 5,
+      "quotient_root_eta": {
+        "eta": 3,
+        "maximizing_partition": [
+          [
+            1
+          ],
+          [
+            2
+          ]
+        ],
+        "partitions_examined": 2
+      }
+    }
+  },
+  "bad_boundary_review": {
+    "census": {
+      "graph": "two_dense_K4_odd",
+      "n": 8,
+      "m": 23,
+      "k": 2,
+      "lambda": 5,
+      "host": 905572,
+      "fully_legal": 872436,
+      "bad_components": 122,
+      "bad_components_with_disconnected_immediate_legal_boundary": 122
+    },
+    "independent_witness": {
+      "dense_cut_shores_up_to_complement": [
+        15,
+        51
+      ],
+      "sparse_corners": [
+        {
+          "mask": 3,
+          "internal_edges": 2
+        },
+        {
+          "mask": 192,
+          "internal_edges": 2
+        },
+        {
+          "mask": 12,
+          "internal_edges": 2
+        },
+        {
+          "mask": 48,
+          "internal_edges": 2
+        }
+      ],
+      "shared_bad_neighbor": 70916,
+      "start": 201988,
+      "target": 333060,
+      "word": [
+        18,
+        17
+      ],
+      "prefix_and_bad_state_full_cut_audits": [
+        {
+          "state": 201988,
+          "vertex_legal": true,
+          "minimum_full_outcut": 2,
+          "oC": 2,
+          "oT": 3
+        },
+        {
+          "state": 464132,
+          "vertex_legal": true,
+          "minimum_full_outcut": 2,
+          "oC": 3,
+          "oT": 3
+        },
+        {
+          "state": 333060,
+          "vertex_legal": true,
+          "minimum_full_outcut": 2,
+          "oC": 2,
+          "oT": 3
+        },
+        {
+          "state": 70916,
+          "vertex_legal": true,
+          "minimum_full_outcut": 1,
+          "oC": 1,
+          "oT": 3
+        }
+      ],
+      "argument": "If o(C)<=1, both o(T),o(V-T)>=3; one host flip cannot make T illegal. Thus its bad component stays at o(C)<=1, and its legal boundary has o(C)=2. No edge of that boundary can change the C port identities. The two saved boundary points exchange distinct parallel C ports, so they need the saved legal excursion to height3.",
+      "full_cut_rows": 1016
+    },
+    "limits": "Full 122-component boundary census uses one C++ implementation. Python independently verifies the selected witness and its analytic boundary separation, without repeating that entire state census. This is not a closed legal component or a MAIN counterexample."
+  },
+  "structural_examples": {
+    "mincut_tree_obstruction": {
+      "n": 14,
+      "m": 35,
+      "k": 2,
+      "arcs": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          5,
+          0
+        ],
+        [
+          6,
+          0
+        ],
+        [
+          6,
+          1
+        ],
+        [
+          7,
+          8
+        ],
+        [
+          7,
+          9
+        ],
+        [
+          8,
+          9
+        ],
+        [
+          8,
+          10
+        ],
+        [
+          9,
+          10
+        ],
+        [
+          9,
+          11
+        ],
+        [
+          10,
+          11
+        ],
+        [
+          10,
+          12
+        ],
+        [
+          11,
+          12
+        ],
+        [
+          11,
+          13
+        ],
+        [
+          12,
+          13
+        ],
+        [
+          12,
+          7
+        ],
+        [
+          13,
+          7
+        ],
+        [
+          13,
+          8
+        ],
+        [
+          0,
+          7
+        ],
+        [
+          1,
+          8
+        ],
+        [
+          2,
+          9
+        ],
+        [
+          10,
+          3
+        ],
+        [
+          11,
+          4
+        ],
+        [
+          12,
+          5
+        ],
+        [
+          13,
+          6
+        ]
+      ],
+      "lambda": 5,
+      "minimum_cut_oriented_shore_count": 28,
+      "nontrivial_minimum_cuts": [],
+      "nonOSP_shore": 127,
+      "internal_edges_on_both_sides": [
+        14,
+        14
+      ],
+      "full_legal_source_minimum_outcut": 2,
+      "full_cut_count": 16382,
+      "scope": "A mincut-tree reduction alone leaves a nonOSP input with no nontrivial minimum split; not a MAIN counterexample."
+    },
+    "balanced_ear_obstruction": {
+      "graph": "K5,5",
+      "k": 2,
+      "lambda": 5,
+      "arcs": [
+        [
+          0,
+          5
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          0,
+          7
+        ],
+        [
+          8,
+          0
+        ],
+        [
+          9,
+          0
+        ],
+        [
+          5,
+          1
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          1,
+          8
+        ],
+        [
+          9,
+          1
+        ],
+        [
+          5,
+          2
+        ],
+        [
+          6,
+          2
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          2,
+          8
+        ],
+        [
+          2,
+          9
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          6,
+          3
+        ],
+        [
+          7,
+          3
+        ],
+        [
+          8,
+          3
+        ],
+        [
+          3,
+          9
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          7,
+          4
+        ],
+        [
+          8,
+          4
+        ],
+        [
+          9,
+          4
+        ]
+      ],
+      "path": [
+        0,
+        6,
+        2,
+        8,
+        3
+      ],
+      "path_ids": [
+        1,
+        11,
+        13,
+        18
+      ],
+      "length": 4,
+      "source_target_minimum_outcuts": [
+        2,
+        2
+      ],
+      "balanced_ears": [],
+      "full_cut_rows": 2044,
+      "scope": "Refutes universal supply of a strictly shortening balanced ear, not the conditional ear decomposition or the possibility of a separate short-macro base case."
+    }
+  },
+  "fractional_geometry": {
+    "variables": 3,
+    "rows": [
+      {
+        "coefficients": [
+          1,
+          1,
+          1
+        ],
+        "upper_bound": 2
+      },
+      {
+        "coefficients": [
+          1,
+          -1,
+          -1
+        ],
+        "upper_bound": 0
+      },
+      {
+        "coefficients": [
+          -1,
+          1,
+          -1
+        ],
+        "upper_bound": 0
+      },
+      {
+        "coefficients": [
+          -1,
+          -1,
+          1
+        ],
+        "upper_bound": 0
+      }
+    ],
+    "box": [
+      0,
+      1
+    ],
+    "center": [
+      0.5,
+      0.5,
+      0.5
+    ],
+    "center_row_slacks": [
+      0.5,
+      0.5,
+      0.5,
+      0.5
+    ],
+    "integer_feasible_masks": [
+      0,
+      3,
+      5,
+      6
+    ],
+    "single_coordinate_neighbors": {
+      "0": [],
+      "3": [],
+      "5": [],
+      "6": []
+    },
+    "integral_polytope_vertices": [
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        1,
+        1,
+        0
+      ],
+      [
+        1,
+        0,
+        1
+      ],
+      [
+        0,
+        1,
+        1
+      ]
+    ],
+    "full_dimensional": true,
+    "scope": "Generic integral polytope counterexample to convexity + integrality + half-unit strict slack implying integer flip connectivity. These are not asserted to be graph outcut rows; not a MAIN counterexample."
+  },
+  "sha256": {
+    "review_routes.py": "c4e81559ea91319c60d6f04059fd285e6974b1e1733191ee3d5929fe9754bfcd",
+    "review_root_caps.cpp": "7c981f31452150535de3682d5cae82a24acedc66943ed70faee55285bb93d66d",
+    "review_root_caps.json": "be8ac18eb0c4fad98e2683127f7bda64a7ff9df09e259fc233c47d3d63e10a6d",
+    "review_bad_boundary.cpp": "d997e5c5a19c59ca9a48b642cfaa06ca56e69cc4906a71b725c3ed4b6a844688",
+    "review_bad_boundary.json": "e9a78d3e5550195297e53789f86d067f22d840c6d9eb87e5e0bce1e66cd36068",
+    "nonosp_source_input.json": "96c16fc485572f1304b115b0c0d068a76baca46975a6e6be1a74dd9d166b5fed",
+    "exact_results.json": "1abba68d3bd7fb68045967e62cb3cec8d0e45ae6997a54b81894e08944e2d3aa"
+  }
+}

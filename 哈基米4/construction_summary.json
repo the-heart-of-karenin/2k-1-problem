@@ -1,0 +1,14 @@
+{
+  "status": "CONSTRUCTION_PASS_PENDING_INDEPENDENT_AUDIT",
+  "instances": 5,
+  "tasks": 850,
+  "flips": 6269,
+  "source_phi_max": 3,
+  "peak_phi_max": 3,
+  "branches": {
+    "normalization_path": 1356,
+    "mixed_or_free": 1379,
+    "all_upper_stem": 2,
+    "all_lower_stem": 2
+  }
+}

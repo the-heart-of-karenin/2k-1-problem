@@ -1,0 +1,62 @@
+{
+  "date": "2026-10-11",
+  "main_status": "OPEN",
+  "general_SD_contraction_status": "OPEN",
+  "H2_analytic_status": "PROVED under stated hypotheses",
+  "H2_main_verification": "PASS",
+  "H2_independent_verification": "PASS",
+  "closed_interface": "Arbitrary actual source prepares a specified legal commercial root decrease from k+1 to k, using at most n-1 H flips",
+  "other_advances": [
+    "Exact service between k/k+1 layers",
+    "Actual merging at near out/in layers with root ports temporarily restored",
+    "Commercial histories confined to those serviceable layers",
+    "Arbitrary-source exit for the explicit no-shadow root-k+1 family via exterior unlock then internal preparation"
+  ],
+  "remaining": [
+    "General R>=k+2 entry",
+    "Other no-shadow environments",
+    "Static root minimum >k",
+    "Global supply and termination"
+  ],
+  "finite_audit": {
+    "SD_subset_checks": 776,
+    "literal_undirected_cut_rows": 4304,
+    "independent_degree_profile_cut_rows": 116580,
+    "actual_prefix_state_visits": 30474,
+    "unique_actual_masks_literal_checked": 14463,
+    "literal_complete_directed_cut_rows": 7271698,
+    "unguarded_entry_words": 2401,
+    "unpaid_entry_words": 2639,
+    "entry_word_physical_flips": 5682,
+    "guarded_entry_words": 238,
+    "exact_service_words": 48,
+    "exact_service_flips": 409,
+    "dual_actual_words": 16,
+    "legal_internal_masks": 5500,
+    "state_decrease_pairs": 8082,
+    "already_ready_pairs": 5443,
+    "distinct_multiple_guard_trace_words": 15,
+    "no_shadow_exit_flips": 7306,
+    "no_shadow_unpaid_after_unlock": 398,
+    "no_shadow_source_legal_masks": 3454,
+    "independent_undirected_root_flow_checks": 253,
+    "independent_directed_root_flow_checks": 7470,
+    "long_guard_words": 10,
+    "long_guard_physical_flips": 144,
+    "blocked_naive_shortcuts": 5,
+    "large_no_shadow_controls": 3,
+    "large_no_shadow_actual_flips": 6
+  },
+  "dependencies_sha256": {
+    "研究结果94_严格稠密核小边界实际收缩_2026-10-08.md": "1c5a3b6b25b59b8fc0c6718e04c6fd85998c8e0e3cad87eaf569be0148454878",
+    "研究结果148_极小坏岸祖先与逐端口共同保护_2026-10-10.md": "6257bc6f613997ecbc5815d61753e6cae122ef1520e7b0a9883a11649d8f043e",
+    "历史资料/research_tree_block_extension.md": "2bc39af5d055f643cb9f6b80dcee84fc8551aa98a779c05b7f6b7387ab73b94f"
+  },
+  "output_sha256": {
+    "研究结果_H2_指定降根端口的任意源态入口.md": "1495ca671ade873478cc1ca9a4c685d0c6f38e6f142e53c5f2f14714c041ab92",
+    "verify_root_entry_H2.py": "a2456f90d26c514201a083d6fa2cfd1b7b9c52896a72aaa27032add83893fa1f",
+    "audit_root_entry_H2.py": "9ae50ddcb819f615bbf447ef04185961496fa18634b5dbecf5947e0dfa0e1b6b",
+    "root_entry_H2_certificate.json": "d36436f62edabfaf6d754246f557e2a13c1d810fd38ace5da93b266b1a3dfbe8",
+    "root_entry_H2_independent_audit.json": "472586ca9cd55688167f711bc88a4120ccaad8185a31bd0ed41bb11fa9f9f01e"
+  }
+}

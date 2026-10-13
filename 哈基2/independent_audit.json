@@ -1,0 +1,160 @@
+{
+  "status": "PASS",
+  "method": "independent Python, full cut enumeration",
+  "exact_censuses_independently_repeated": 5,
+  "audits": [
+    {
+      "name": "K6",
+      "all_orientations": 32768,
+      "all_cuts_per_legal_check": 62,
+      "host": 2640,
+      "good": 2640,
+      "root_cap_queries": 0,
+      "root_cap_nontrivial_queries": 0,
+      "status": "PASS"
+    },
+    {
+      "name": "K6_plus_three_root_edges",
+      "all_orientations": 262144,
+      "all_cuts_per_legal_check": 62,
+      "host": 49568,
+      "good": 49568,
+      "root_cap_queries": 150284,
+      "root_cap_nontrivial_queries": 102296,
+      "status": "PASS"
+    },
+    {
+      "name": "three_dense_pairs_odd",
+      "all_orientations": 131072,
+      "all_cuts_per_legal_check": 62,
+      "host": 24404,
+      "good": 16496,
+      "root_cap_queries": 49288,
+      "root_cap_nontrivial_queries": 32592,
+      "status": "PASS"
+    },
+    {
+      "name": "root_shadow_control_k2",
+      "all_orientations": 4096,
+      "all_cuts_per_legal_check": 14,
+      "host": 1312,
+      "good": 1312,
+      "root_cap_queries": 2173,
+      "root_cap_nontrivial_queries": 1722,
+      "status": "PASS"
+    },
+    {
+      "name": "K5_plus_cycle",
+      "all_orientations": 32768,
+      "all_cuts_per_legal_check": 30,
+      "host": 11008,
+      "good": 11008,
+      "root_cap_queries": 39200,
+      "root_cap_nontrivial_queries": 23360,
+      "status": "PASS"
+    }
+  ],
+  "witnesses": [
+    {
+      "name": "K6",
+      "type": "nonmonotone_shortest_word",
+      "distance": 5,
+      "hamming": 3,
+      "prefix_cut_rows": 310,
+      "status": "PASS"
+    },
+    {
+      "name": "two_dense_K4_odd",
+      "state": 8383210,
+      "minimum_outcut": 0,
+      "neighbor_minimum_outcuts": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "two_K5_with_matching",
+      "state": 33476531,
+      "minimum_outcut": 0,
+      "neighbor_minimum_outcuts": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "root_shadow_control_k2",
+      "start": 3867,
+      "word": [
+        8,
+        0,
+        9,
+        1
+      ],
+      "states": [
+        3867,
+        3611,
+        3610,
+        3098,
+        3096
+      ],
+      "root_heights": [
+        4,
+        4,
+        3,
+        3,
+        2
+      ],
+      "status": "PASS"
+    }
+  ],
+  "limits": "m>18 census counts are C++ only; stored witnesses are independently checked",
+  "sha256": {
+    "exact_routes.cpp": "1b520286a9a2bd4fbff1328f1579cfab65e4c97bd898b1f22ecf0abfb2553767",
+    "exact_results.json": "1abba68d3bd7fb68045967e62cb3cec8d0e45ae6997a54b81894e08944e2d3aa",
+    "verify_exact.py": "85b3a0db60d560a5eecd2813ecedc833b18ff436055f9cd44081b87d2b9b6316"
+  }
+}

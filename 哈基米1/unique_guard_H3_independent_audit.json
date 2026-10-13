@@ -1,0 +1,31 @@
+{
+  "status": "PASS",
+  "certificate_sha256": "52d38d7a7c485e93f5bfb4458063bea88b5339b067b710501f23f3c5c317e491",
+  "auditor_sha256": "7700299896b2496b75d1f87918e353975cc136180704352b6c6aef68027b6c34",
+  "stats": {
+    "sd_subset_rows": 1200,
+    "literal_undirected_cut_rows": 11114,
+    "literal_quotient_cut_rows": 570,
+    "literal_enumeration_profile_cut_rows": 136830,
+    "enumerated_legal_physical_states": 10326,
+    "guard_profile_target_checks": 521,
+    "guard_physical_state_target_checks": 13298,
+    "actual_mask_prefix_visits": 29503,
+    "literal_actual_physical_cut_rows": 4183794,
+    "conditional_entry_words": 12858,
+    "conditional_entry_flips": 16645,
+    "positive_unsaturated_frontier_words": 5,
+    "unique_actual_physical_masks": 9503,
+    "finite_controls": 32,
+    "residual_saturated_gate_pairs": 440,
+    "literal_family_physical_cut_rows": 43094,
+    "single_packet_countercontrols": 5,
+    "family_relay_words": 5,
+    "family_relay_flips": 92,
+    "undirected_root_flows": 78,
+    "directed_root_flows": 6828,
+    "rejected_illegal_quotient_candidates": 1
+  },
+  "method": "literal physical cuts and independently built root flows; no constructor import",
+  "limitations": "finite scope only; exploratory random screen totals are not independently replayed"
+}

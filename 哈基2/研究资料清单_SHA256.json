@@ -1,0 +1,195 @@
+{
+  "date": "2026-10-11",
+  "folder": "D:\\Users\\Desktop\\2k+1_complete_2026-10-07\\哈基2",
+  "main_status": "OPEN",
+  "sources_read_only": [
+    {
+      "path": "D:\\Users\\Desktop\\2k+1_complete_2026-10-07\\2k+1\\README.md",
+      "bytes": 17514,
+      "sha256": "ff8a317bebd51c5f382c7a74fa1f06d2292e2ba7c5b4801acd6592e501720c90"
+    },
+    {
+      "path": "D:\\Users\\Desktop\\2k+1_complete_2026-10-07\\2k+1\\原定理综合研究与唯一剩余接口.md",
+      "bytes": 100743,
+      "sha256": "1564cedc4216434f7cfbfd3de004bb2b75b3843760d9dd22435ff428a3b04cb1"
+    },
+    {
+      "path": "D:\\Users\\Desktop\\2k+1_complete_2026-10-07\\2k+1\\研究接续与工作约定_2026-10-07.md",
+      "bytes": 3512,
+      "sha256": "8c86de73515b49122a28aed3157b84a2d2aa84540b3fad944fbe053b5161eebe"
+    },
+    {
+      "path": "D:\\Users\\Desktop\\2k+1_complete_2026-10-07\\2k+1\\research_path_only_universal_reduction_2026-10-07.md",
+      "bytes": 12240,
+      "sha256": "34ca24dfcde3542b59f746569da47d8c8bb1c89bc063234f33e5135e3c19bdc6"
+    },
+    {
+      "path": "D:\\Users\\Desktop\\2k+1_complete_2026-10-07\\2k+1\\research_interval_frozen_peeling_components_2026-10-07.md",
+      "bytes": 7279,
+      "sha256": "3c1a4e65733a5184fd76c80262edd4b6c0e9a91337f0a2d4267d13ecb739c3eb"
+    },
+    {
+      "path": "D:\\Users\\Desktop\\2k+1_complete_2026-10-07\\2k+1\\研究结果123_核心交接的双紧岸完全刻画与最小割树_2026-10-10.md",
+      "bytes": 8446,
+      "sha256": "ea375b303cf41b53d5d93030bda18a30a39fc417e6eda85d731aece26bc53172"
+    },
+    {
+      "path": "D:\\Users\\Desktop\\2k+1_complete_2026-10-07\\2k+1\\研究结果146_共同根紧层的树缺额与非OSP核供给反例_2026-10-10.md",
+      "bytes": 7361,
+      "sha256": "f1b01918c02be4a660574dfd3ba7d35721d0e0e20c07ea5673c3e487eda9e673"
+    },
+    {
+      "path": "D:\\Users\\Desktop\\2k+1_complete_2026-10-07\\2k+1\\研究结果148_极小坏岸祖先与逐端口共同保护_2026-10-10.md",
+      "bytes": 11967,
+      "sha256": "6257bc6f613997ecbc5815d61753e6cae122ef1520e7b0a9883a11649d8f043e"
+    },
+    {
+      "path": "D:\\Users\\Desktop\\2k+1_complete_2026-10-07\\2k+1\\研究深思记录_2026-10-10_全局供给与根极值.md",
+      "bytes": 6551,
+      "sha256": "dadc40058f55e4cd60b628ab193d097873c9642f77ae59608781cb0197f060fa"
+    },
+    {
+      "path": "D:\\Users\\Desktop\\2k+1_complete_2026-10-07\\2k+1\\sd_global_anchor_independent_audit_2026-10-10.json",
+      "bytes": 517331,
+      "sha256": "b24233770a023d5bcae1027876b3483786060d5e0799286d4e16d6621d944b41"
+    }
+  ],
+  "outputs": [
+    {
+      "name": "README.md",
+      "bytes": 3299,
+      "sha256": "a66cc74aa97399ffc78d8912727a7a5917513aa80c78b522798ce007b751bff5"
+    },
+    {
+      "name": "check_external_budget.py",
+      "bytes": 6508,
+      "sha256": "2bf5517ea69da2f298176f625415dc0129d59901e2ccd566c94551ed2939519d"
+    },
+    {
+      "name": "check_nonosp_budget.py",
+      "bytes": 7647,
+      "sha256": "24bd46005101b695b2b9ac8a5840d61b88143a2eaac53d23c3d6f8116acf672b"
+    },
+    {
+      "name": "exact_results.json",
+      "bytes": 6363,
+      "sha256": "1abba68d3bd7fb68045967e62cb3cec8d0e45ae6997a54b81894e08944e2d3aa"
+    },
+    {
+      "name": "exact_routes.cpp",
+      "bytes": 8841,
+      "sha256": "1b520286a9a2bd4fbff1328f1579cfab65e4c97bd898b1f22ecf0abfb2553767"
+    },
+    {
+      "name": "exact_routes.exe",
+      "bytes": 106933,
+      "sha256": "71f90cdaa41bf8e72e883d433be1c21d32c9810626303901e5556ee32e25e6b4"
+    },
+    {
+      "name": "external_budget_results.json",
+      "bytes": 9234,
+      "sha256": "70c37a5cb3011b3ef1c9ff4815ad5cdcde7459616c9d3e03ada1d99820cc666d"
+    },
+    {
+      "name": "independent_audit.json",
+      "bytes": 3332,
+      "sha256": "b2b03864a4be747d91e4a3f1bcc8b1c9fd3196c577d605dfb747929f09fad54a"
+    },
+    {
+      "name": "nonosp_budget_results.json",
+      "bytes": 2957,
+      "sha256": "e55228db8300b8bab933a99ca2e485ceb29d863d2c3acd47619b91d939c7eac5"
+    },
+    {
+      "name": "nonosp_source_input.json",
+      "bytes": 2084,
+      "sha256": "96c16fc485572f1304b115b0c0d068a76baca46975a6e6be1a74dd9d166b5fed"
+    },
+    {
+      "name": "review_bad_boundary.cpp",
+      "bytes": 4760,
+      "sha256": "d997e5c5a19c59ca9a48b642cfaa06ca56e69cc4906a71b725c3ed4b6a844688"
+    },
+    {
+      "name": "review_bad_boundary.exe",
+      "bytes": 79708,
+      "sha256": "aa17bf938525657fe3a720f2e4be74d793f9bb9a8ca40013c921ca983a1bc1c7"
+    },
+    {
+      "name": "review_bad_boundary.json",
+      "bytes": 9839,
+      "sha256": "e9a78d3e5550195297e53789f86d067f22d840c6d9eb87e5e0bce1e66cd36068"
+    },
+    {
+      "name": "review_results.json",
+      "bytes": 22132,
+      "sha256": "325c4a4e12ec03a150aea4ac96b7f5961b66e766869a7f811406a6aa9189078d"
+    },
+    {
+      "name": "review_root_caps.cpp",
+      "bytes": 5316,
+      "sha256": "7c981f31452150535de3682d5cae82a24acedc66943ed70faee55285bb93d66d"
+    },
+    {
+      "name": "review_root_caps.exe",
+      "bytes": 96417,
+      "sha256": "eb1dd291a2f4ffd0db75a89aaeb44088696c2e3d71de79c2ea19852cd96b655d"
+    },
+    {
+      "name": "review_root_caps.json",
+      "bytes": 1979,
+      "sha256": "be8ac18eb0c4fad98e2683127f7bda64a7ff9df09e259fc233c47d3d63e10a6d"
+    },
+    {
+      "name": "review_routes.py",
+      "bytes": 26502,
+      "sha256": "c4e81559ea91319c60d6f04059fd285e6974b1e1733191ee3d5929fe9754bfcd"
+    },
+    {
+      "name": "summarize_and_manifest.py",
+      "bytes": 9490,
+      "sha256": "2585b1b41d914dd11a05c5fbb6eced4a7f05ab1d74f1bdaa2c43d8db156cff79"
+    },
+    {
+      "name": "verify_exact.py",
+      "bytes": 7129,
+      "sha256": "85b3a0db60d560a5eecd2813ecedc833b18ff436055f9cd44081b87d2b9b6316"
+    },
+    {
+      "name": "发散路线研究报告_2026-10-11.md",
+      "bytes": 17544,
+      "sha256": "166629bcd9343ff241feeb61127dbc8bd95613256f77930c7ccdcf7f68ac8a98"
+    },
+    {
+      "name": "可严格使用的桥梁与边界.md",
+      "bytes": 10451,
+      "sha256": "ca2fa40a81efe6a2d2726228ebe84659b9d078fd3b95708cfa259dd7cb968052"
+    },
+    {
+      "name": "审查实验说明_2026-10-11.md",
+      "bytes": 5016,
+      "sha256": "81255deffc88ecd6839df45f94667448919a343b7a85c53074ed2753c2aaea1d"
+    },
+    {
+      "name": "工作记录_2026-10-11.md",
+      "bytes": 5650,
+      "sha256": "1047dfc5907c727117ac85fc74743236efb21fe8db23f6f62586f599403594fd"
+    },
+    {
+      "name": "文献核对与来源.md",
+      "bytes": 3618,
+      "sha256": "4d62ef42436a16cd96f7171145af1680012ef718ce043a1ce00b0635e706b305"
+    },
+    {
+      "name": "精确实验报告_2026-10-11.md",
+      "bytes": 5871,
+      "sha256": "59ab85c7d368e0ae1bedf4d9f2a3713460b46ed2a5526e6e7ee6b6ad2d47e82c"
+    },
+    {
+      "name": "路线审查报告_2026-10-11.md",
+      "bytes": 20247,
+      "sha256": "59d9897ec0a33893a647079947fa599c1e1e35286e769036c88e7cbbde581d2f"
+    }
+  ],
+  "note": "Manifest excludes itself; source hashes record the files used, not an independent re-audit of every old proof."
+}

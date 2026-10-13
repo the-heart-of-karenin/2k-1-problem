@@ -1,0 +1,142 @@
+{
+  "README.md": {
+    "bytes": 4173,
+    "sha256": "f55c0706db8e569213c54cc54df9954529e0eb9d0194a0d03883f6bd9302b5cc"
+  },
+  "audit_root_entry_H2.py": {
+    "bytes": 18964,
+    "sha256": "9ae50ddcb819f615bbf447ef04185961496fa18634b5dbecf5947e0dfa0e1b6b"
+  },
+  "audit_unique_guard_H3.py": {
+    "bytes": 13862,
+    "sha256": "7700299896b2496b75d1f87918e353975cc136180704352b6c6aef68027b6c34"
+  },
+  "audit_unlock_pair_H3.py": {
+    "bytes": 5960,
+    "sha256": "c04b5c1436fc011a50212065a87dd2ce8044f7e31fbb7924222097cddfa89453"
+  },
+  "audit_variable_shadows.py": {
+    "bytes": 20255,
+    "sha256": "f9412ce452ea0d5782be0d4209d01636a41fb7869f96da459377e3a5e9a2c4f6"
+  },
+  "probe_root_entry.py": {
+    "bytes": 7983,
+    "sha256": "ffd60e2e7b40cd5b8471eaae9e93a5803d88da71019ae691b51cd1f1aa178b7b"
+  },
+  "probe_saturated_guard_H3.py": {
+    "bytes": 4078,
+    "sha256": "dd63f368e054b01c9926d84e8604ccd29c541c99da91856560b7d5a4dcbb15b3"
+  },
+  "probe_trapped_ports_H3.py": {
+    "bytes": 4447,
+    "sha256": "b49473d84ef2528386e67c383f3e5c47ea587c678343517b795ef7ab7e05d26e"
+  },
+  "probe_unshadowed_entry_H3.py": {
+    "bytes": 10057,
+    "sha256": "dec47d09b8d0655d531567fb836ce88f2f10f5564999f032b4f02215dd08849d"
+  },
+  "probe_unshadowed_entry_H3_零前沿旧版.py.txt": {
+    "bytes": 9932,
+    "sha256": "d348babd2e6d0b3b1463a1289ce31451c104f357d1962d383b75b209479fe671"
+  },
+  "root_entry_H2_certificate.json": {
+    "bytes": 3190737,
+    "sha256": "d36436f62edabfaf6d754246f557e2a13c1d810fd38ace5da93b266b1a3dfbe8"
+  },
+  "root_entry_H2_independent_audit.json": {
+    "bytes": 1605,
+    "sha256": "472586ca9cd55688167f711bc88a4120ccaad8185a31bd0ed41bb11fa9f9f01e"
+  },
+  "root_entry_screen.json": {
+    "bytes": 10508,
+    "sha256": "a6f8ad96b1d36eeb5978742ba54a64d8628ee3ed3a732e7b9995346ff342bd00"
+  },
+  "saturated_guard_H3_architecture_screen.json": {
+    "bytes": 254,
+    "sha256": "20c434370f27190895ab360239ed3ac4a141e3fbad0bfb175d5e86079242d331"
+  },
+  "trapped_ports_H3_probe.json": {
+    "bytes": 2438,
+    "sha256": "dbca577659f8eb954b1e00793c9837a8e64eb012ab65236c81afde5f7a69af02"
+  },
+  "unique_guard_H3_certificate.json": {
+    "bytes": 5210196,
+    "sha256": "52d38d7a7c485e93f5bfb4458063bea88b5339b067b710501f23f3c5c317e491"
+  },
+  "unique_guard_H3_independent_audit.json": {
+    "bytes": 1324,
+    "sha256": "54a783277bf288d61eefeea8064803ac4094b7b4f65e4965662e5ad620c9fdfc"
+  },
+  "unlock_pair_H3_certificate.json": {
+    "bytes": 429321,
+    "sha256": "727e554265e8495b7c90f55eb5c160d1c3bd529fed180e2884ac2aa8c72a7161"
+  },
+  "unlock_pair_H3_independent_audit.json": {
+    "bytes": 896,
+    "sha256": "bb02c3143a5f4a7382210a8a61e19e2f6535f878e3964c79af2fc5ff899ad3ce"
+  },
+  "unshadowed_entry_H3_screen.json": {
+    "bytes": 14744,
+    "sha256": "b6d2e5d089f3759f352c3ba913e54961da7d8771c802f41ca9c6597b8acd4465"
+  },
+  "unshadowed_entry_H3_zero_vertex_screen.json": {
+    "bytes": 16678,
+    "sha256": "c57582d786010612a54a3d8ac872a1cd3f81fc578dc3afbcb37cd555f6299142"
+  },
+  "variable_shadows_certificate.json": {
+    "bytes": 315790,
+    "sha256": "d0c85d50fad3cdd6672f2b9de80d1e37250224823651f5a42180584116ce0ca0"
+  },
+  "variable_shadows_independent_audit.json": {
+    "bytes": 5061,
+    "sha256": "deb9b22706d0a6f64509204c4d0ef0cd568f29358e2a3144f1d6404665d5e9d0"
+  },
+  "verify_root_entry_H2.py": {
+    "bytes": 22490,
+    "sha256": "a2456f90d26c514201a083d6fa2cfd1b7b9c52896a72aaa27032add83893fa1f"
+  },
+  "verify_unique_guard_H3.py": {
+    "bytes": 12472,
+    "sha256": "a431e6298f50173d8d868732c8a848eb0b04c018145a43fdecf849aa85fdc5cc"
+  },
+  "verify_unlock_pair_H3.py": {
+    "bytes": 4461,
+    "sha256": "6b4b9cb8b99bcc50326913537ebd9e4ea74a042621b15c6bbce386bae7e57cde"
+  },
+  "verify_variable_shadows.py": {
+    "bytes": 25694,
+    "sha256": "eb0b376867ae40a5299b6161d64d569778ff11ea6ca83f5638506d6f96cd34c3"
+  },
+  "研究日志_2026-10-11.md": {
+    "bytes": 11741,
+    "sha256": "b47b3202390e8f1d5d5e9c88e91c920de54d6a96c1a199ce106ebf85b073142b"
+  },
+  "研究检查点_2026-10-11_H1.json": {
+    "bytes": 3355,
+    "sha256": "bbcb99aa7ef082bc1af0dad86f3587fc3760d5809841ef438d7e0e0bd670d19b"
+  },
+  "研究检查点_2026-10-11_H2.json": {
+    "bytes": 2989,
+    "sha256": "10275215521039ecd38c44510c39a84842206843f2c5402336c97d190e977c6f"
+  },
+  "研究检查点_2026-10-11_H3.json": {
+    "bytes": 6438,
+    "sha256": "755ddeba10336e75563620c8a77b77fb97ff679f631a4a47f324fa9bdd257260"
+  },
+  "研究结果_H1_可变影子基与跨环境一步交接.md": {
+    "bytes": 14381,
+    "sha256": "105ba64989c968fa5a16b99cceb40d21c99a43862fe1d9f9bd7b09422743c4ec"
+  },
+  "研究结果_H2_指定降根端口的任意源态入口.md": {
+    "bytes": 17435,
+    "sha256": "1495ca671ade873478cc1ca9a4c685d0c6f38e6f142e53c5f2f14714c041ab92"
+  },
+  "研究结果_H3_唯一饱和守卫与双单位接力.md": {
+    "bytes": 14015,
+    "sha256": "3c8d5750b69dfabf9f934020e615c190cbdcc08b87eaee7b38ea324f951f03dc"
+  },
+  "记录H3检查点.py": {
+    "bytes": 6093,
+    "sha256": "ab07d1e502e1fa68c792c160a70eee66b40cd31ed173d453e7e161daebf2cbcd"
+  }
+}

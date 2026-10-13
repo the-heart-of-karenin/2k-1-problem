@@ -1,0 +1,179 @@
+{
+  "status": "PASS",
+  "encoding": "bit1 reverses the stored source arc; start=0",
+  "n": 20,
+  "m": 50,
+  "k": 2,
+  "lambda": 5,
+  "osp": false,
+  "core": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    7,
+    8,
+    9
+  ],
+  "eta": 3,
+  "j": 1,
+  "q": 1,
+  "a": [
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0
+  ],
+  "identity_rows": 1039876,
+  "dangerous_trace_masks": [
+    1,
+    2,
+    16,
+    32,
+    64,
+    128
+  ],
+  "activity_sets_satisfying_B3": 20,
+  "selected_words": [
+    {
+      "activity_ids": [
+        2,
+        45,
+        48
+      ],
+      "paid_betas": {
+        "1": 2,
+        "2": 3,
+        "16": 3,
+        "32": 2,
+        "64": 3,
+        "128": 2
+      },
+      "word": [
+        2,
+        45,
+        48,
+        48,
+        45,
+        2
+      ],
+      "states": [
+        0,
+        4,
+        35184372088836,
+        316659348799492,
+        35184372088836,
+        4,
+        0
+      ]
+    },
+    {
+      "activity_ids": [
+        2,
+        45,
+        49
+      ],
+      "paid_betas": {
+        "1": 2,
+        "2": 2,
+        "16": 3,
+        "32": 2,
+        "64": 3,
+        "128": 2
+      },
+      "word": [
+        2,
+        45,
+        49,
+        49,
+        45,
+        2
+      ],
+      "states": [
+        0,
+        4,
+        35184372088836,
+        598134325510148,
+        35184372088836,
+        4,
+        0
+      ]
+    },
+    {
+      "activity_ids": [
+        2,
+        48,
+        49
+      ],
+      "paid_betas": {
+        "1": 2,
+        "2": 3,
+        "16": 2,
+        "32": 2,
+        "64": 3,
+        "128": 2
+      },
+      "word": [
+        2,
+        48,
+        49,
+        49,
+        48,
+        2
+      ],
+      "states": [
+        0,
+        4,
+        281474976710660,
+        844424930131972,
+        281474976710660,
+        4,
+        0
+      ]
+    },
+    {
+      "activity_ids": [
+        3,
+        45,
+        48
+      ],
+      "paid_betas": {
+        "1": 2,
+        "2": 3,
+        "16": 3,
+        "32": 2,
+        "64": 2,
+        "128": 3
+      },
+      "word": [
+        3,
+        45,
+        48,
+        48,
+        45,
+        3
+      ],
+      "states": [
+        0,
+        8,
+        35184372088840,
+        316659348799496,
+        35184372088840,
+        8,
+        0
+      ]
+    }
+  ],
+  "distinct_physical_prefix_states_full_cut_checked": 18,
+  "full_cut_rows": 19922906,
+  "limits": "One specified eta=3 source from Result146; all mixed identities; all incoming subsets checked for B3; four selected cubes receive full-cut checks. No universal source-entry claim.",
+  "sha256": {
+    "nonosp_source_input.json": "96c16fc485572f1304b115b0c0d068a76baca46975a6e6be1a74dd9d166b5fed",
+    "check_nonosp_budget.py": "24bd46005101b695b2b9ac8a5840d61b88143a2eaac53d23c3d6f8116acf672b"
+  }
+}

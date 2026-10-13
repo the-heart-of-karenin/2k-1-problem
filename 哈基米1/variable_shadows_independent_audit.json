@@ -1,0 +1,171 @@
+{
+  "status": "PASS",
+  "theorem": "H1",
+  "controls": [
+    {
+      "name": "triangle_q1_capacity_more_than_one",
+      "stats": {
+        "shadow_demand_equivalences": 4132,
+        "legal_quotient_signatures": 634,
+        "shadow_bases": 2096,
+        "capacity_shadow_bases": 1812,
+        "no_capacity_shadow_signatures": 22,
+        "all_element_basis_exchange_checks": 10536,
+        "reserve_total_checks": 1812,
+        "explicit_capacity_counterexamples_checked": 3,
+        "common_payment_bounds_checked": 4608,
+        "actual_single_flips_checked": 374,
+        "actual_words_checked": 19,
+        "no_fixed_k_baseline_return_histories": 2
+      }
+    },
+    {
+      "name": "four_vertex_q1_multiple_ports",
+      "stats": {
+        "shadow_demand_equivalences": 10208,
+        "legal_quotient_signatures": 1544,
+        "shadow_bases": 7632,
+        "capacity_shadow_bases": 6304,
+        "no_capacity_shadow_signatures": 22,
+        "all_element_basis_exchange_checks": 63744,
+        "reserve_total_checks": 6304,
+        "explicit_capacity_counterexamples_checked": 3,
+        "common_payment_bounds_checked": 67560,
+        "actual_single_flips_checked": 334,
+        "actual_words_checked": 16
+      }
+    },
+    {
+      "name": "k3_q2_parallel_physical_copies",
+      "stats": {
+        "shadow_demand_equivalences": 1625,
+        "legal_quotient_signatures": 650,
+        "shadow_bases": 1397,
+        "capacity_shadow_bases": 1397,
+        "all_element_basis_exchange_checks": 2700,
+        "reserve_total_checks": 1397,
+        "common_payment_bounds_checked": 7928,
+        "actual_single_flips_checked": 239,
+        "actual_words_checked": 16
+      }
+    },
+    {
+      "name": "doubled_cycle_q2",
+      "stats": {
+        "shadow_demand_equivalences": 948,
+        "legal_quotient_signatures": 290,
+        "shadow_bases": 786,
+        "capacity_shadow_bases": 786,
+        "all_element_basis_exchange_checks": 2460,
+        "reserve_total_checks": 786,
+        "common_payment_bounds_checked": 5220,
+        "actual_single_flips_checked": 294,
+        "actual_words_checked": 16
+      }
+    }
+  ],
+  "unpaid_entry_family": [
+    {
+      "k": 2,
+      "word_length": 3,
+      "minimum_cut": 5,
+      "no_capacity_shadow": true,
+      "final_paid": true,
+      "physical_prefix_complete_cuts": 120
+    },
+    {
+      "k": 3,
+      "word_length": 6,
+      "minimum_cut": 7,
+      "no_capacity_shadow": true,
+      "final_paid": true,
+      "physical_prefix_complete_cuts": 210
+    },
+    {
+      "k": 4,
+      "word_length": 9,
+      "minimum_cut": 9,
+      "no_capacity_shadow": true,
+      "final_paid": true,
+      "physical_prefix_complete_cuts": 300
+    },
+    {
+      "k": 7,
+      "word_length": 18,
+      "minimum_cut": 15,
+      "no_capacity_shadow": true,
+      "final_paid": true,
+      "physical_prefix_complete_cuts": 570
+    },
+    {
+      "k": 12,
+      "word_length": 33,
+      "minimum_cut": 25,
+      "no_capacity_shadow": true,
+      "final_paid": true,
+      "physical_prefix_complete_cuts": 1020
+    },
+    {
+      "k": 30,
+      "word_length": 87,
+      "minimum_cut": 61,
+      "no_capacity_shadow": true,
+      "final_paid": true,
+      "physical_prefix_complete_cuts": 2640
+    },
+    {
+      "k": 100,
+      "word_length": 297,
+      "minimum_cut": 201,
+      "no_capacity_shadow": true,
+      "final_paid": true,
+      "physical_prefix_complete_cuts": 8940
+    }
+  ],
+  "large_identity_change_family": [
+    {
+      "k": 4,
+      "vertices": 9,
+      "physical_shadow_distance": 2,
+      "common_extra_payment_units": 0,
+      "actual_word_length": 1,
+      "root_flow_threshold_checks": 64,
+      "capacity_basis_families_complete": true
+    },
+    {
+      "k": 6,
+      "vertices": 13,
+      "physical_shadow_distance": 3,
+      "common_extra_payment_units": 0,
+      "actual_word_length": 1,
+      "root_flow_threshold_checks": 96,
+      "capacity_basis_families_complete": true
+    },
+    {
+      "k": 10,
+      "vertices": 21,
+      "physical_shadow_distance": 5,
+      "common_extra_payment_units": 0,
+      "actual_word_length": 1,
+      "root_flow_threshold_checks": 160,
+      "capacity_basis_families_complete": true
+    },
+    {
+      "k": 20,
+      "vertices": 41,
+      "physical_shadow_distance": 10,
+      "common_extra_payment_units": 0,
+      "actual_word_length": 1,
+      "root_flow_threshold_checks": 320,
+      "capacity_basis_families_complete": true
+    }
+  ],
+  "stats": {
+    "literal_complete_cut_checks": 850374,
+    "root_flow_threshold_checks": 640
+  },
+  "certificate_sha256": "d0c85d50fad3cdd6672f2b9de80d1e37250224823651f5a42180584116ce0ca0",
+  "program_sha256": "f9412ce452ea0d5782be0d4209d01636a41fb7869f96da459377e3a5e9a2c4f6",
+  "analytic_source_sha256": "105ba64989c968fa5a16b99cceb40d21c99a43862fe1d9f9bd7b09422743c4ec",
+  "scope": "Independent exact finite audit; no assertion of universal MAIN."
+}

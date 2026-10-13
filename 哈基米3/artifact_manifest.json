@@ -1,0 +1,64 @@
+{
+  "status": "PASS",
+  "main_status": "OPEN",
+  "formal_registered_result": 171,
+  "candidate_result": 172,
+  "files": {
+    "audit_deficit_budget_entry.py": {
+      "sha256": "bf390f0073c19152416fc68cc34fefe41995f1f918badc904724e2c89e619d66",
+      "bytes": 11511
+    },
+    "audit_port_guard_transfer.py": {
+      "sha256": "53286e915a50b6dee930a1faa3d9da965e8e2f61eadf8dd02f02f8241dd02b65",
+      "bytes": 10226
+    },
+    "deficit_budget_entry_certificate.json": {
+      "sha256": "05f18097a8b12ff63cd14e87cff0f18fc527f2420e15cac634bf8575df08b595",
+      "bytes": 31061
+    },
+    "deficit_budget_entry_independent_audit.json": {
+      "sha256": "3016d60b4119c4bb119ba6ed6c2dcce4c69074b84cbbfe7c69ff6c4858ccfb2b",
+      "bytes": 3174
+    },
+    "port_guard_transfer_certificate.json": {
+      "sha256": "49f754e8202cf6ee58924074f43082440253bb6bc81fc6f8ad0a4677f7b3ae23",
+      "bytes": 19318
+    },
+    "port_guard_transfer_independent_audit.json": {
+      "sha256": "cdb693231767eed3b304b7fef95f126ce712e5fa2bf393481ed7006debec3d03",
+      "bytes": 2639
+    },
+    "README.md": {
+      "sha256": "f3502757c7dc1a6f2bcc6cdca657b1f14702b158e804df5fae388f5172791568",
+      "bytes": 2069
+    },
+    "verify_deficit_budget_entry.py": {
+      "sha256": "f5f69d7a613686e0379a0fd6a730c67e077d35e5bc9b2e0d72a3d4c9054ce3df",
+      "bytes": 11455
+    },
+    "verify_port_guard_transfer.py": {
+      "sha256": "db5f72c4759d069c22a2f1800fd7ad2ad639780330939fe91ff48f72fd1e79dc",
+      "bytes": 7058
+    },
+    "研究候选172_亏额割预算与高层欧拉入口_2026-10-13.md": {
+      "sha256": "edafc9f7453e9d4d13ddcbfd27e32c01e7c44157681184c845120d9ef17c7573",
+      "bytes": 17851
+    },
+    "研究发散与停止记录_2026-10-13.md": {
+      "sha256": "da523e750f494c08d7ec6a3ee5e088e615bccefeff48b242c6fbef297a7e93ad",
+      "bytes": 6388
+    },
+    "研究续接_2026-10-13_哈基米3.json": {
+      "sha256": "ca8bb77b99e2cf422ce1c586cdd79c0bae6d2a0cd79df29575d3b792ebd59c50",
+      "bytes": 3283
+    }
+  },
+  "read_only_source_check": {
+    "2k+1/研究启动必读_方法与停止规则_2026-10-12.md": "UNCHANGED",
+    "2k+1/研究续接_2026-10-13_结果172进行中.json": "UNCHANGED",
+    "2k+1/研究结果170_双单位入守卫与任意端口尾准备_2026-10-12.md": "UNCHANGED",
+    "2k+1/研究结果171_最大余量核的最小割递归与通用商代表_2026-10-13.md": "UNCHANGED",
+    "2k+1/研究探索172_最小割窄面与回路构造保持_2026-10-13.md": "UNCHANGED"
+  },
+  "full_historical_chain_reaudited": false
+}

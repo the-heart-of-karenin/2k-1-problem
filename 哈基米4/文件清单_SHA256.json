@@ -1,0 +1,52 @@
+{
+  "date": "2026-10-13",
+  "main_status": "OPEN",
+  "registration": "candidate_only",
+  "files": [
+    {
+      "name": "研究发散与停止记录_2026-10-13.md",
+      "bytes": 5301,
+      "sha256": "797d3868ac0f88e88178b68326502ab9a0619a3cb52bd15898fd28d6edff8878"
+    },
+    {
+      "name": "研究续接_哈基米4_2026-10-13.json",
+      "bytes": 4012,
+      "sha256": "50721692d802f4a45027aa3b03c5bfd8137fe19af808e98d5b5a403f2a1e8ce1"
+    },
+    {
+      "name": "audit_terminal_band.py",
+      "bytes": 12214,
+      "sha256": "67bacebd114c79e7eb09dd6d69bc2424feff5d1748efee52dcfbbef8db8bd195"
+    },
+    {
+      "name": "construct_terminal_band.py",
+      "bytes": 17722,
+      "sha256": "d14d5bc2ac3dbd057f0e69fe070fd10df52efd62d872232b0e8f86786e8c1f86"
+    },
+    {
+      "name": "construction_summary.json",
+      "bytes": 298,
+      "sha256": "0c4e14c1d8dc9dcbf60feb0a3e103a4beb0d605ef2f933526fc07885c9db5115"
+    },
+    {
+      "name": "independent_audit.json",
+      "bytes": 1172,
+      "sha256": "68f6658797fdf0f102cfbfe5f0869c00011ab451f9e4707956edf65c21a95434"
+    },
+    {
+      "name": "README.md",
+      "bytes": 2898,
+      "sha256": "41cb9111e3a855181d7ee5ff4921e1984b1b63c9eefefd07dc791147b6fdd322"
+    },
+    {
+      "name": "result172_candidate_terminal_band.md",
+      "bytes": 17433,
+      "sha256": "27fc16815e0eca55f23c9f602041add3356ac92ee05dc144521a9deed7baf890"
+    },
+    {
+      "name": "terminal_band_certificate.json",
+      "bytes": 1409038,
+      "sha256": "1e0decacc5ef4a7007bcaf691f95587e5e2f33ef21c8a2201e51528d133f9cf7"
+    }
+  ]
+}

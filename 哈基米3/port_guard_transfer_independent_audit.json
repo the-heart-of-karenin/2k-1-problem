@@ -1,0 +1,92 @@
+{
+  "status": "PASS",
+  "constructor_imported": false,
+  "independent_helper_module": "audit_deficit_budget_entry",
+  "certificate_sha256": "49f754e8202cf6ee58924074f43082440253bb6bc81fc6f8ad0a4677f7b3ae23",
+  "auditor_sha256": "53286e915a50b6dee930a1faa3d9da965e8e2f61eadf8dd02f02f8241dd02b65",
+  "cases": [
+    {
+      "name": "positive_width_guard",
+      "status": "PASS",
+      "lambda_g": 7,
+      "source_phi": 6,
+      "ready_phi": 5,
+      "guard_count": 1,
+      "guard_min_mask": 273,
+      "guard_max_mask": 273,
+      "transport": [
+        1,
+        4
+      ],
+      "transport_length": 1,
+      "ready_is_eulerian": false,
+      "global_budget_fails": true,
+      "preconditioning_phi": null,
+      "base_safe_transport_exists": null,
+      "alternative_new_donor_length": null,
+      "complete_physical_cut_rows": 3066,
+      "physical_states": 3,
+      "preparation_freezes_external": true,
+      "g_original_identity": 48,
+      "reverse_replay_exact": true
+    },
+    {
+      "name": "two_nested_guards_single_transport",
+      "status": "PASS",
+      "lambda_g": 7,
+      "source_phi": 3,
+      "ready_phi": 2,
+      "guard_count": 2,
+      "guard_min_mask": 17,
+      "guard_max_mask": 55,
+      "transport": [
+        3,
+        1,
+        0
+      ],
+      "transport_length": 2,
+      "ready_is_eulerian": false,
+      "global_budget_fails": true,
+      "preconditioning_phi": null,
+      "base_safe_transport_exists": null,
+      "alternative_new_donor_length": null,
+      "complete_physical_cut_rows": 504,
+      "physical_states": 4,
+      "preparation_freezes_external": true,
+      "g_original_identity": 44,
+      "reverse_replay_exact": true
+    },
+    {
+      "name": "one_port_critical_after_new_unit",
+      "status": "PASS",
+      "lambda_g": 5,
+      "source_phi": 2,
+      "ready_phi": 1,
+      "guard_count": 1,
+      "guard_min_mask": 16,
+      "guard_max_mask": 16,
+      "transport": [
+        0,
+        5,
+        2,
+        4
+      ],
+      "transport_length": 3,
+      "ready_is_eulerian": false,
+      "global_budget_fails": true,
+      "preconditioning_phi": [
+        1,
+        2
+      ],
+      "base_safe_transport_exists": false,
+      "alternative_new_donor_length": 1,
+      "complete_physical_cut_rows": 4080,
+      "physical_states": 8,
+      "preparation_freezes_external": true,
+      "g_original_identity": 20,
+      "reverse_replay_exact": true
+    }
+  ],
+  "total_complete_physical_cut_rows": 7650,
+  "does_not_prove": "unconditional safe transport or a universal preparation prefix"
+}

@@ -1,0 +1,120 @@
+{
+  "status": "PASS",
+  "constructor_imported": false,
+  "source_integrity": {
+    "2k+1/研究启动必读_方法与停止规则_2026-10-12.md": "UNCHANGED",
+    "2k+1/研究续接_2026-10-13_结果172进行中.json": "UNCHANGED",
+    "2k+1/研究结果170_双单位入守卫与任意端口尾准备_2026-10-12.md": "UNCHANGED",
+    "2k+1/研究结果171_最大余量核的最小割递归与通用商代表_2026-10-13.md": "UNCHANGED",
+    "2k+1/研究探索172_最小割窄面与回路构造保持_2026-10-13.md": "UNCHANGED"
+  },
+  "certificate_sha256": "05f18097a8b12ff63cd14e87cff0f18fc527f2420e15cac634bf8575df08b595",
+  "auditor_sha256": "bf390f0073c19152416fc68cc34fefe41995f1f918badc904724e2c89e619d66",
+  "cases": [
+    {
+      "name": "one_unit_path_and_cycle",
+      "status": "PASS",
+      "lambda_g": 5,
+      "rho": 1,
+      "phi": 1,
+      "budget_passes": true,
+      "quotient_root_out_in": [
+        24,
+        16
+      ],
+      "exterior_independent": true,
+      "entrance_steps": 2,
+      "word_length": 7,
+      "paths": 1,
+      "cycles": 1,
+      "phi_history": [
+        1,
+        1,
+        0,
+        1,
+        1,
+        1,
+        1,
+        0
+      ],
+      "physical_states": 8,
+      "full_cut_rows": 524272,
+      "literal_cut_crosschecks": 1168,
+      "literal_trace_rows": 254,
+      "external_trace_minimizations": 65024
+    },
+    {
+      "name": "two_unit_paths_and_cycle",
+      "status": "PASS",
+      "lambda_g": 7,
+      "rho": 2,
+      "phi": 2,
+      "budget_passes": true,
+      "quotient_root_out_in": [
+        28,
+        21
+      ],
+      "exterior_independent": true,
+      "entrance_steps": 4,
+      "word_length": 7,
+      "paths": 2,
+      "cycles": 1,
+      "phi_history": [
+        2,
+        1,
+        1,
+        1,
+        0,
+        1,
+        1,
+        0
+      ],
+      "physical_states": 8,
+      "full_cut_rows": 131056,
+      "literal_cut_crosschecks": 1152,
+      "literal_trace_rows": 126,
+      "external_trace_minimizations": 16128
+    },
+    {
+      "name": "zero_terminal_rho_valid_entry",
+      "status": "PASS",
+      "lambda_g": 5,
+      "rho": 0,
+      "phi": 1,
+      "budget_passes": true,
+      "quotient_root_out_in": [
+        24,
+        16
+      ],
+      "exterior_independent": true,
+      "entrance_steps": 2,
+      "word_length": 2,
+      "paths": 1,
+      "cycles": 0,
+      "phi_history": [
+        1,
+        1,
+        0
+      ],
+      "physical_states": 3,
+      "full_cut_rows": 196602,
+      "literal_cut_crosschecks": 438,
+      "literal_trace_rows": 254,
+      "external_trace_minimizations": 65024
+    },
+    {
+      "name": "one_port_cone_known_negative_control",
+      "status": "PASS_EXPECTED_REJECTION",
+      "lambda_g": 5,
+      "rho": 0,
+      "phi": 1,
+      "full_cut_rows": 510,
+      "literal_cut_crosschecks": 510,
+      "failure_trace": 223,
+      "failure_shore": 479
+    }
+  ],
+  "total_complete_directed_cut_rows": 852440,
+  "total_literal_identity_crosschecks": 3268,
+  "universal_quantifiers_supplied_by": "analytic_proof_not_controls"
+}

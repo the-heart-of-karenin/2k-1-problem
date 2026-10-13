@@ -1,0 +1,1117 @@
+{
+  "status": "PASS",
+  "unconditional_transport_existence": false,
+  "source": "candidate172_section11",
+  "constructor_sha256": "db5f72c4759d069c22a2f1800fd7ad2ad639780330939fe91ff48f72fd1e79dc",
+  "cases": [
+    {
+      "name": "positive_width_guard",
+      "family": "read_only_ledger_wide_guard",
+      "k": 2,
+      "core_n": 8,
+      "core_m": 16,
+      "vertex_n": 10,
+      "edges": [
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          0,
+          7
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          3,
+          6
+        ],
+        [
+          3,
+          7
+        ],
+        [
+          0,
+          8
+        ],
+        [
+          0,
+          8
+        ],
+        [
+          8,
+          0
+        ],
+        [
+          8,
+          0
+        ],
+        [
+          1,
+          9
+        ],
+        [
+          1,
+          9
+        ],
+        [
+          9,
+          1
+        ],
+        [
+          9,
+          1
+        ],
+        [
+          2,
+          9
+        ],
+        [
+          2,
+          9
+        ],
+        [
+          9,
+          2
+        ],
+        [
+          9,
+          2
+        ],
+        [
+          3,
+          9
+        ],
+        [
+          3,
+          9
+        ],
+        [
+          9,
+          3
+        ],
+        [
+          9,
+          3
+        ],
+        [
+          4,
+          8
+        ],
+        [
+          4,
+          8
+        ],
+        [
+          8,
+          4
+        ],
+        [
+          8,
+          4
+        ],
+        [
+          5,
+          9
+        ],
+        [
+          5,
+          9
+        ],
+        [
+          9,
+          5
+        ],
+        [
+          9,
+          5
+        ],
+        [
+          6,
+          9
+        ],
+        [
+          6,
+          9
+        ],
+        [
+          9,
+          6
+        ],
+        [
+          9,
+          6
+        ],
+        [
+          7,
+          9
+        ],
+        [
+          7,
+          9
+        ],
+        [
+          9,
+          7
+        ],
+        [
+          9,
+          7
+        ],
+        [
+          0,
+          9
+        ]
+      ],
+      "source_mask": 12,
+      "g": 48,
+      "guard_min_mask": 273,
+      "guard_max_mask": 273,
+      "source_g_local_connectivity": 2,
+      "ready_g_local_connectivity": 3,
+      "trials": [
+        {
+          "s": 1,
+          "safe_vertices": [
+            0,
+            1,
+            4,
+            5,
+            6,
+            7
+          ],
+          "local_flow_values": {
+            "0": 4,
+            "2": 2,
+            "3": 2,
+            "4": 5,
+            "5": 6,
+            "6": 5,
+            "7": 5
+          },
+          "succeeds": true
+        }
+      ],
+      "selected_transport": {
+        "s": 1,
+        "t": 4,
+        "vertices": [
+          1,
+          4
+        ],
+        "word": [
+          4
+        ]
+      },
+      "ready_mask": 28,
+      "after_g_mask": 281474976710684,
+      "source_budget": {
+        "source_deficits": [
+          0,
+          0,
+          0,
+          0,
+          2,
+          2,
+          1,
+          1
+        ],
+        "source_phi": 6,
+        "threshold": 16,
+        "minimum": 8,
+        "passes": false,
+        "queries": [
+          {
+            "u": 0,
+            "v": 1,
+            "value": 8,
+            "shore_mask": 1021
+          },
+          {
+            "u": 0,
+            "v": 2,
+            "value": 8,
+            "shore_mask": 1019
+          },
+          {
+            "u": 0,
+            "v": 3,
+            "value": 8,
+            "shore_mask": 1015
+          },
+          {
+            "u": 0,
+            "v": 4,
+            "value": 12,
+            "shore_mask": 751
+          },
+          {
+            "u": 0,
+            "v": 5,
+            "value": 12,
+            "shore_mask": 991
+          },
+          {
+            "u": 0,
+            "v": 6,
+            "value": 10,
+            "shore_mask": 959
+          },
+          {
+            "u": 0,
+            "v": 7,
+            "value": 10,
+            "shore_mask": 895
+          },
+          {
+            "u": 1,
+            "v": 0,
+            "value": 8,
+            "shore_mask": 766
+          },
+          {
+            "u": 2,
+            "v": 0,
+            "value": 8,
+            "shore_mask": 766
+          },
+          {
+            "u": 3,
+            "v": 0,
+            "value": 8,
+            "shore_mask": 766
+          },
+          {
+            "u": 4,
+            "v": 0,
+            "value": 8,
+            "shore_mask": 766
+          },
+          {
+            "u": 5,
+            "v": 0,
+            "value": 8,
+            "shore_mask": 766
+          },
+          {
+            "u": 6,
+            "v": 0,
+            "value": 8,
+            "shore_mask": 766
+          },
+          {
+            "u": 7,
+            "v": 0,
+            "value": 8,
+            "shore_mask": 766
+          }
+        ],
+        "terminal_rho": 0,
+        "terminal_queries": [
+          {
+            "u": 0,
+            "v": 1,
+            "value": 1,
+            "shore_mask": 273
+          },
+          {
+            "u": 0,
+            "v": 2,
+            "value": 1,
+            "shore_mask": 273
+          },
+          {
+            "u": 0,
+            "v": 3,
+            "value": 1,
+            "shore_mask": 273
+          },
+          {
+            "u": 0,
+            "v": 4,
+            "value": 2,
+            "shore_mask": 751
+          },
+          {
+            "u": 0,
+            "v": 5,
+            "value": 1,
+            "shore_mask": 273
+          },
+          {
+            "u": 0,
+            "v": 6,
+            "value": 1,
+            "shore_mask": 273
+          },
+          {
+            "u": 0,
+            "v": 7,
+            "value": 1,
+            "shore_mask": 273
+          },
+          {
+            "u": 1,
+            "v": 0,
+            "value": 0,
+            "shore_mask": 750
+          },
+          {
+            "u": 2,
+            "v": 0,
+            "value": 0,
+            "shore_mask": 750
+          },
+          {
+            "u": 3,
+            "v": 0,
+            "value": 0,
+            "shore_mask": 750
+          },
+          {
+            "u": 4,
+            "v": 0,
+            "value": 2,
+            "shore_mask": 16
+          },
+          {
+            "u": 5,
+            "v": 0,
+            "value": 0,
+            "shore_mask": 750
+          },
+          {
+            "u": 6,
+            "v": 0,
+            "value": 0,
+            "shore_mask": 750
+          },
+          {
+            "u": 7,
+            "v": 0,
+            "value": 0,
+            "shore_mask": 750
+          }
+        ]
+      },
+      "source_phi": 6,
+      "ready_phi": 5
+    },
+    {
+      "name": "two_nested_guards_single_transport",
+      "family": "read_only_ledger_chain",
+      "k": 3,
+      "core_n": 4,
+      "core_m": 12,
+      "vertex_n": 7,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          4,
+          0
+        ],
+        [
+          4,
+          0
+        ],
+        [
+          4,
+          0
+        ],
+        [
+          4,
+          0
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          5,
+          1
+        ],
+        [
+          5,
+          1
+        ],
+        [
+          5,
+          1
+        ],
+        [
+          5,
+          1
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          5,
+          2
+        ],
+        [
+          5,
+          2
+        ],
+        [
+          5,
+          2
+        ],
+        [
+          5,
+          2
+        ],
+        [
+          3,
+          6
+        ],
+        [
+          3,
+          6
+        ],
+        [
+          3,
+          6
+        ],
+        [
+          3,
+          6
+        ],
+        [
+          6,
+          3
+        ],
+        [
+          6,
+          3
+        ],
+        [
+          6,
+          3
+        ],
+        [
+          6,
+          3
+        ],
+        [
+          0,
+          6
+        ]
+      ],
+      "source_mask": 15,
+      "g": 44,
+      "guard_min_mask": 17,
+      "guard_max_mask": 55,
+      "source_g_local_connectivity": 3,
+      "ready_g_local_connectivity": 4,
+      "trials": [
+        {
+          "s": 3,
+          "safe_vertices": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "local_flow_values": {
+            "0": 4,
+            "1": 4,
+            "2": 4
+          },
+          "succeeds": true
+        }
+      ],
+      "selected_transport": {
+        "s": 3,
+        "t": 0,
+        "vertices": [
+          3,
+          1,
+          0
+        ],
+        "word": [
+          6,
+          0
+        ]
+      },
+      "ready_mask": 78,
+      "after_g_mask": 17592186044494,
+      "source_budget": {
+        "source_deficits": [
+          1,
+          0,
+          2,
+          0
+        ],
+        "source_phi": 3,
+        "threshold": 12,
+        "minimum": 8,
+        "passes": false,
+        "queries": [
+          {
+            "u": 0,
+            "v": 1,
+            "value": 12,
+            "shore_mask": 17
+          },
+          {
+            "u": 0,
+            "v": 2,
+            "value": 12,
+            "shore_mask": 17
+          },
+          {
+            "u": 0,
+            "v": 3,
+            "value": 8,
+            "shore_mask": 55
+          },
+          {
+            "u": 1,
+            "v": 0,
+            "value": 8,
+            "shore_mask": 110
+          },
+          {
+            "u": 2,
+            "v": 0,
+            "value": 8,
+            "shore_mask": 110
+          },
+          {
+            "u": 3,
+            "v": 0,
+            "value": 8,
+            "shore_mask": 110
+          }
+        ],
+        "terminal_rho": 0,
+        "terminal_queries": [
+          {
+            "u": 0,
+            "v": 1,
+            "value": 0,
+            "shore_mask": 89
+          },
+          {
+            "u": 0,
+            "v": 2,
+            "value": 0,
+            "shore_mask": 89
+          },
+          {
+            "u": 0,
+            "v": 3,
+            "value": 1,
+            "shore_mask": 17
+          },
+          {
+            "u": 1,
+            "v": 0,
+            "value": 0,
+            "shore_mask": 38
+          },
+          {
+            "u": 2,
+            "v": 0,
+            "value": 0,
+            "shore_mask": 38
+          },
+          {
+            "u": 3,
+            "v": 0,
+            "value": 0,
+            "shore_mask": 72
+          }
+        ]
+      },
+      "source_phi": 3,
+      "ready_phi": 2
+    },
+    {
+      "name": "one_port_critical_after_new_unit",
+      "family": "known_cone_with_explicit_nonuniversal_preconditioning",
+      "k": 2,
+      "core_n": 8,
+      "core_m": 16,
+      "vertex_n": 9,
+      "edges": [
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          0,
+          7
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          3,
+          6
+        ],
+        [
+          3,
+          7
+        ],
+        [
+          8,
+          0
+        ],
+        [
+          8,
+          1
+        ],
+        [
+          8,
+          2
+        ],
+        [
+          8,
+          3
+        ],
+        [
+          4,
+          8
+        ],
+        [
+          5,
+          8
+        ],
+        [
+          6,
+          8
+        ],
+        [
+          7,
+          8
+        ]
+      ],
+      "source_mask": 50817,
+      "target_mask": 25500,
+      "mode": "reject",
+      "analytic_failure_trace": 223,
+      "analytic_failure_shore": 479,
+      "base_source_mask": 50849,
+      "preconditioning_word": [
+        5
+      ],
+      "g": 20,
+      "preconditioning_is_general_theorem": false,
+      "guard_min_mask": 16,
+      "guard_max_mask": 16,
+      "source_g_local_connectivity": 2,
+      "ready_g_local_connectivity": 3,
+      "trials": [
+        {
+          "s": 0,
+          "safe_vertices": [
+            0,
+            2,
+            3,
+            4,
+            5
+          ],
+          "local_flow_values": {
+            "1": 2,
+            "2": 3,
+            "3": 3,
+            "4": 3,
+            "5": 3,
+            "6": 2,
+            "7": 2
+          },
+          "succeeds": true
+        }
+      ],
+      "selected_transport": {
+        "s": 0,
+        "t": 4,
+        "vertices": [
+          0,
+          5,
+          2,
+          4
+        ],
+        "word": [
+          1,
+          9,
+          8
+        ]
+      },
+      "ready_mask": 50563,
+      "after_g_mask": 1099139,
+      "source_budget": {
+        "source_deficits": [
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          0,
+          0
+        ],
+        "source_phi": 2,
+        "threshold": 8,
+        "minimum": 4,
+        "passes": false,
+        "queries": [
+          {
+            "u": 0,
+            "v": 1,
+            "value": 6,
+            "shore_mask": 509
+          },
+          {
+            "u": 0,
+            "v": 2,
+            "value": 6,
+            "shore_mask": 507
+          },
+          {
+            "u": 0,
+            "v": 3,
+            "value": 6,
+            "shore_mask": 503
+          },
+          {
+            "u": 0,
+            "v": 4,
+            "value": 6,
+            "shore_mask": 495
+          },
+          {
+            "u": 0,
+            "v": 5,
+            "value": 6,
+            "shore_mask": 479
+          },
+          {
+            "u": 0,
+            "v": 6,
+            "value": 4,
+            "shore_mask": 447
+          },
+          {
+            "u": 0,
+            "v": 7,
+            "value": 4,
+            "shore_mask": 383
+          },
+          {
+            "u": 1,
+            "v": 0,
+            "value": 6,
+            "shore_mask": 510
+          },
+          {
+            "u": 2,
+            "v": 0,
+            "value": 6,
+            "shore_mask": 510
+          },
+          {
+            "u": 3,
+            "v": 0,
+            "value": 6,
+            "shore_mask": 510
+          },
+          {
+            "u": 4,
+            "v": 0,
+            "value": 6,
+            "shore_mask": 510
+          },
+          {
+            "u": 5,
+            "v": 0,
+            "value": 6,
+            "shore_mask": 510
+          },
+          {
+            "u": 6,
+            "v": 0,
+            "value": 6,
+            "shore_mask": 510
+          },
+          {
+            "u": 7,
+            "v": 0,
+            "value": 6,
+            "shore_mask": 510
+          }
+        ],
+        "terminal_rho": 0,
+        "terminal_queries": [
+          {
+            "u": 0,
+            "v": 1,
+            "value": 0,
+            "shore_mask": 1
+          },
+          {
+            "u": 0,
+            "v": 2,
+            "value": 0,
+            "shore_mask": 1
+          },
+          {
+            "u": 0,
+            "v": 3,
+            "value": 0,
+            "shore_mask": 1
+          },
+          {
+            "u": 0,
+            "v": 4,
+            "value": 0,
+            "shore_mask": 1
+          },
+          {
+            "u": 0,
+            "v": 5,
+            "value": 0,
+            "shore_mask": 1
+          },
+          {
+            "u": 0,
+            "v": 6,
+            "value": 0,
+            "shore_mask": 1
+          },
+          {
+            "u": 0,
+            "v": 7,
+            "value": 0,
+            "shore_mask": 1
+          },
+          {
+            "u": 1,
+            "v": 0,
+            "value": 0,
+            "shore_mask": 2
+          },
+          {
+            "u": 2,
+            "v": 0,
+            "value": 0,
+            "shore_mask": 4
+          },
+          {
+            "u": 3,
+            "v": 0,
+            "value": 0,
+            "shore_mask": 8
+          },
+          {
+            "u": 4,
+            "v": 0,
+            "value": 1,
+            "shore_mask": 16
+          },
+          {
+            "u": 5,
+            "v": 0,
+            "value": 1,
+            "shore_mask": 32
+          },
+          {
+            "u": 6,
+            "v": 0,
+            "value": 1,
+            "shore_mask": 64
+          },
+          {
+            "u": 7,
+            "v": 0,
+            "value": 1,
+            "shore_mask": 128
+          }
+        ]
+      },
+      "source_phi": 2,
+      "ready_phi": 1
+    }
+  ]
+}

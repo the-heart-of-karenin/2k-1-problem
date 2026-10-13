@@ -1,0 +1,213 @@
+{
+  "status": "PASS",
+  "counts": {
+    "directed_cut_rows": 950300,
+    "undirected_cut_rows": 286766,
+    "physical_state_visits": 47,
+    "distinct_frame_masks": 18
+  },
+  "controls": [
+    {
+      "frame": 0,
+      "status": "PASS",
+      "tasks": [
+        {
+          "name": "canonical_phase_with_no_global_near_state",
+          "status": "PASS",
+          "length": 5,
+          "history": [
+            {
+              "step": 0,
+              "physical_mask": 387329114267724,
+              "full_min_cut": 2,
+              "protective_min_cut": 2,
+              "H_outdegrees": [
+                2,
+                2,
+                2,
+                2,
+                2
+              ],
+              "Phi_H": 0
+            },
+            {
+              "step": 1,
+              "physical_mask": 387329114267852,
+              "full_min_cut": 2,
+              "protective_min_cut": 2,
+              "H_outdegrees": [
+                2,
+                2,
+                1,
+                3,
+                2
+              ],
+              "Phi_H": 1
+            },
+            {
+              "step": 2,
+              "physical_mask": 387329114267848,
+              "full_min_cut": 2,
+              "protective_min_cut": 2,
+              "H_outdegrees": [
+                3,
+                2,
+                1,
+                2,
+                2
+              ],
+              "Phi_H": 1
+            },
+            {
+              "step": 3,
+              "physical_mask": 387329114267849,
+              "full_min_cut": 2,
+              "protective_min_cut": 2,
+              "H_outdegrees": [
+                2,
+                3,
+                1,
+                2,
+                2
+              ],
+              "Phi_H": 1
+            },
+            {
+              "step": 4,
+              "physical_mask": 387329114267881,
+              "full_min_cut": 2,
+              "protective_min_cut": 2,
+              "H_outdegrees": [
+                2,
+                2,
+                1,
+                3,
+                2
+              ],
+              "Phi_H": 1
+            },
+            {
+              "step": 5,
+              "physical_mask": 387329114267753,
+              "full_min_cut": 2,
+              "protective_min_cut": 2,
+              "H_outdegrees": [
+                2,
+                2,
+                2,
+                2,
+                2
+              ],
+              "Phi_H": 0
+            }
+          ]
+        },
+        {
+          "name": "non_eulerian_far_source_to_canonical_target",
+          "status": "PASS",
+          "length": 4,
+          "history": [
+            {
+              "step": 0,
+              "physical_mask": 387329114267852,
+              "full_min_cut": 2,
+              "protective_min_cut": 2,
+              "H_outdegrees": [
+                2,
+                2,
+                1,
+                3,
+                2
+              ],
+              "Phi_H": 1
+            },
+            {
+              "step": 1,
+              "physical_mask": 387329114267848,
+              "full_min_cut": 2,
+              "protective_min_cut": 2,
+              "H_outdegrees": [
+                3,
+                2,
+                1,
+                2,
+                2
+              ],
+              "Phi_H": 1
+            },
+            {
+              "step": 2,
+              "physical_mask": 387329114267849,
+              "full_min_cut": 2,
+              "protective_min_cut": 2,
+              "H_outdegrees": [
+                2,
+                3,
+                1,
+                2,
+                2
+              ],
+              "Phi_H": 1
+            },
+            {
+              "step": 3,
+              "physical_mask": 387329114267881,
+              "full_min_cut": 2,
+              "protective_min_cut": 2,
+              "H_outdegrees": [
+                2,
+                2,
+                1,
+                3,
+                2
+              ],
+              "Phi_H": 1
+            },
+            {
+              "step": 4,
+              "physical_mask": 387329114267753,
+              "full_min_cut": 2,
+              "protective_min_cut": 2,
+              "H_outdegrees": [
+                2,
+                2,
+                2,
+                2,
+                2
+              ],
+              "Phi_H": 0
+            }
+          ]
+        }
+      ],
+      "B0_internal_min_cut": 1
+    },
+    {
+      "frame": 1,
+      "status": "PASS",
+      "full_min_cut": 2,
+      "restricted_min_cuts": [
+        1,
+        1
+      ],
+      "meaning": "projection legality is an additional obligation"
+    }
+  ],
+  "reference_sources_unchanged": 6,
+  "mutable_entry_updates": [
+    {
+      "path": "2k+1/研究启动必读_方法与停止规则_2026-10-12.md",
+      "initial_sha256": "3dac5d49dc7b0ed8963420328ceecda58f313009033b47f7e9c4cf35b6887b29",
+      "current_sha256": "70e0c3b1b56403805c5a0ef4b6781abd782d7aea3f2516b20826a9416d851ad3"
+    },
+    {
+      "path": "2k+1/研究续接_2026-10-13_结果172进行中.json",
+      "initial_sha256": "ec614c2e37a6e67356a150820ad77ed154fe6ec9ea8d6ac4db8e33508f1b49db",
+      "current_sha256": "b742e298e6fe4b097ea43fc15d33934a9aa79a848a4da6886defb8e80f611a14"
+    }
+  ],
+  "full_old_hash_chain_audit_claimed": false,
+  "main_status": "OPEN",
+  "orientation_components_enumerated": false,
+  "universal_statements_proved_by": "analytic note, not sample counts"
+}

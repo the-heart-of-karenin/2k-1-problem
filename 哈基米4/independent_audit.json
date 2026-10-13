@@ -1,0 +1,31 @@
+{
+  "status": "PASS",
+  "date": "2026-10-13",
+  "main_status": "OPEN",
+  "mathematical_proof": "result172_candidate_terminal_band.md",
+  "controls_are_not_universal_proof": true,
+  "statistics": {
+    "undirected_cut_rows": 20760,
+    "state_visits": 13627,
+    "distinct_physical_states": 1522,
+    "directed_complete_cut_rows": 3844308,
+    "controls_without_any_quotient_near_layer": 7,
+    "terminal_min_cut_rows": 12032,
+    "terminal_submodular_rows": 34944,
+    "selected_frozen_fibre_internal_masks_checked": 1024,
+    "normalization_path": 1356,
+    "macro_count": 2739,
+    "tasks": 850,
+    "physical_flips": 6269,
+    "reverse_replay_flips": 6269,
+    "mixed_or_free": 1379,
+    "all_upper_stem": 2,
+    "all_lower_stem": 2,
+    "point_valid_mixed_invalid_controls": 2,
+    "one_unit_neighbour_dead_end_checks": 26,
+    "one_unit_lower_bound_controls": 2
+  },
+  "certificate_sha256": "1e0decacc5ef4a7007bcaf691f95587e5e2f33ef21c8a2201e51528d133f9cf7",
+  "constructor_sha256": "d14d5bc2ac3dbd057f0e69fe070fd10df52efd62d872232b0e8f86786e8c1f86",
+  "audit_sha256": "67bacebd114c79e7eb09dd6d69bc2424feff5d1748efee52dcfbbef8db8bd195"
+}

@@ -1,0 +1,59 @@
+{
+  "date": "2026-10-13",
+  "workspace": "哈基米3",
+  "user_authorized_location_override": "本次明确要求在与2k+1同级的哈基米3工作，旧目录只读",
+  "startup_required_read": "../2k+1/研究启动必读_方法与停止规则_2026-10-12.md",
+  "upstream_current_entry_read": "../2k+1/研究续接_2026-10-13_结果172进行中.json",
+  "upstream_latest_derivation_read": "../2k+1/研究探索172_指定端口删除的刚性割链_2026-10-13.md",
+  "latest_upstream_formal_result": 171,
+  "latest_upstream_formal_document": 261,
+  "local_candidate_result": 172,
+  "formal_registration_modified": false,
+  "main_status": "OPEN",
+  "regularization_used": false,
+  "subagents_used": false,
+  "background_search_started": false,
+  "candidate_proof": "研究候选172_亏额割预算与高层欧拉入口_2026-10-13.md",
+  "strategy_record": "研究发散与停止记录_2026-10-13.md",
+  "proved_conditional_interfaces": [
+    "q=k的任意高度、任意外部：若每个trace的亏额被内部割余量与冻结外部最小出割支配，则当前目标差异路可正序逐身份执行到某份Eulerian H，入口Phi不增，条件保持，入口词每份差异身份至多一次",
+    "上述预算加核终端E连通度至少1时，到任意指定Eulerian H相位有Hamming最短词；圈校正允许Phi由0暂升1，不冒称全词单调",
+    "任意k强方向、指定弧g的当前紧守卫交M并U：若从U外到M内实现一单位合法出度运输，则全部旧g守卫消失且不会产生新g守卫",
+    "q=k且sigma^g合法时，M内deficit与C-U内surplus必存在；当前H安全前沿内的真实路给可执行的条件g准备，成本<=|C|-1，不要求DB或Eulerian末态"
+  ],
+  "general_limitations_proved": [
+    "DB在每个核点恰一外部端口时迫使Phi=0，不能准备任何非Eulerian临界源",
+    "指定g的静态盈亏端点不能替代当前实际安全运输；临界控制的原源没有该路，需要先暂增单位"
+  ],
+  "audits": {
+    "deficit_entry": {
+      "file": "deficit_budget_entry_independent_audit.json",
+      "status": "PASS",
+      "positive_controls": 3,
+      "negative_controls": 1,
+      "complete_directed_cut_rows": 852440,
+      "literal_identity_crosschecks": 3268
+    },
+    "port_guard_transport": {
+      "file": "port_guard_transfer_independent_audit.json",
+      "status": "PASS",
+      "controls": 3,
+      "complete_physical_cut_rows": 7650,
+      "unconditional_preconditioning_claim": false
+    },
+    "universal_quantifiers_from_samples": false,
+    "constructors_imported_by_audits": false,
+    "source_hash_check_scope": "直接读用的170、171正式证明和三份入口/账本；未重验全部426份历史链"
+  },
+  "next_general_task": "跨当前g守卫交并的实际运输，或可归还的准备加运输；须先证明一般供给/接管与终止，不提高链长、点数或Phi参数分类",
+  "not_claimed": [
+    "任意far源的Eulerian入口",
+    "任意sigma^g合法端口从任意源的无条件H-only准备",
+    "每个商图有近层",
+    "rho_E=0时全部Eulerian物理相位连通",
+    "其它q全部高度服务",
+    "AC",
+    "MAIN"
+  ],
+  "status": "CONDITIONAL_GENERAL_PROOFS_AND_AUDITS_COMPLETE_UNCONDITIONAL_PREPARATION_STOPPED_UNDER_METHOD_RULE"
+}

@@ -1,0 +1,381 @@
+{
+  "status": "PASS",
+  "counts": {
+    "original_directed_cut_rows": 2818254,
+    "original_undirected_cut_rows": 590068,
+    "auxiliary_directed_cut_rows": 42278,
+    "auxiliary_undirected_cut_rows": 41772,
+    "external_trace_cut_rows": 590068,
+    "physical_state_visits": 93,
+    "distinct_frame_masks": 72
+  },
+  "controls": [
+    {
+      "frame": 0,
+      "role": "previously_unprotected_source_now_repaired",
+      "status": "PASS",
+      "q": 2,
+      "port_weights": [
+        1,
+        1
+      ],
+      "word_length": 2,
+      "history": [
+        {
+          "step": 0,
+          "physical_mask": 492882595438671,
+          "full_minimum_cut": 2,
+          "H_outdegree": [
+            0,
+            3,
+            3,
+            2,
+            2
+          ]
+        },
+        {
+          "step": 1,
+          "physical_mask": 492882595438670,
+          "full_minimum_cut": 2,
+          "H_outdegree": [
+            1,
+            2,
+            3,
+            2,
+            2
+          ]
+        },
+        {
+          "step": 2,
+          "physical_mask": 492882595438668,
+          "full_minimum_cut": 2,
+          "H_outdegree": [
+            2,
+            2,
+            2,
+            2,
+            2
+          ]
+        }
+      ]
+    },
+    {
+      "frame": 1,
+      "role": "lower_frozen_cycle",
+      "status": "PASS",
+      "q": 2,
+      "port_weights": [
+        1,
+        1
+      ],
+      "word_length": 5,
+      "history": [
+        {
+          "step": 0,
+          "physical_mask": 387329110073420,
+          "full_minimum_cut": 2,
+          "H_outdegree": [
+            2,
+            2,
+            2,
+            2,
+            2
+          ]
+        },
+        {
+          "step": 1,
+          "physical_mask": 387329110073548,
+          "full_minimum_cut": 2,
+          "H_outdegree": [
+            2,
+            2,
+            1,
+            3,
+            2
+          ]
+        },
+        {
+          "step": 2,
+          "physical_mask": 387329110073544,
+          "full_minimum_cut": 2,
+          "H_outdegree": [
+            3,
+            2,
+            1,
+            2,
+            2
+          ]
+        },
+        {
+          "step": 3,
+          "physical_mask": 387329110073545,
+          "full_minimum_cut": 2,
+          "H_outdegree": [
+            2,
+            3,
+            1,
+            2,
+            2
+          ]
+        },
+        {
+          "step": 4,
+          "physical_mask": 387329110073577,
+          "full_minimum_cut": 2,
+          "H_outdegree": [
+            2,
+            2,
+            1,
+            3,
+            2
+          ]
+        },
+        {
+          "step": 5,
+          "physical_mask": 387329110073449,
+          "full_minimum_cut": 2,
+          "H_outdegree": [
+            2,
+            2,
+            2,
+            2,
+            2
+          ]
+        }
+      ]
+    },
+    {
+      "frame": 2,
+      "role": "mixed_color_cycle_without_a_helper",
+      "status": "PASS",
+      "q": 2,
+      "port_weights": [
+        1,
+        1
+      ],
+      "word_length": 3,
+      "history": [
+        {
+          "step": 0,
+          "physical_mask": 387329110073420,
+          "full_minimum_cut": 2,
+          "H_outdegree": [
+            2,
+            2,
+            2,
+            2,
+            2
+          ]
+        },
+        {
+          "step": 1,
+          "physical_mask": 387329110073548,
+          "full_minimum_cut": 2,
+          "H_outdegree": [
+            2,
+            2,
+            1,
+            3,
+            2
+          ]
+        },
+        {
+          "step": 2,
+          "physical_mask": 387329110073544,
+          "full_minimum_cut": 2,
+          "H_outdegree": [
+            3,
+            2,
+            1,
+            2,
+            2
+          ]
+        },
+        {
+          "step": 3,
+          "physical_mask": 387329110073546,
+          "full_minimum_cut": 2,
+          "H_outdegree": [
+            2,
+            2,
+            2,
+            2,
+            2
+          ]
+        }
+      ]
+    },
+    {
+      "frame": 3,
+      "role": "upper_frozen_cycle",
+      "status": "PASS",
+      "q": 2,
+      "port_weights": [
+        1,
+        1
+      ],
+      "word_length": 5,
+      "history": [
+        {
+          "step": 0,
+          "physical_mask": 738570796769203,
+          "full_minimum_cut": 2,
+          "H_outdegree": [
+            2,
+            2,
+            2,
+            2,
+            2
+          ]
+        },
+        {
+          "step": 1,
+          "physical_mask": 738570796769075,
+          "full_minimum_cut": 2,
+          "H_outdegree": [
+            2,
+            2,
+            3,
+            1,
+            2
+          ]
+        },
+        {
+          "step": 2,
+          "physical_mask": 738570796769079,
+          "full_minimum_cut": 2,
+          "H_outdegree": [
+            1,
+            2,
+            3,
+            2,
+            2
+          ]
+        },
+        {
+          "step": 3,
+          "physical_mask": 738570796769078,
+          "full_minimum_cut": 2,
+          "H_outdegree": [
+            2,
+            1,
+            3,
+            2,
+            2
+          ]
+        },
+        {
+          "step": 4,
+          "physical_mask": 738570796769046,
+          "full_minimum_cut": 2,
+          "H_outdegree": [
+            2,
+            2,
+            3,
+            1,
+            2
+          ]
+        },
+        {
+          "step": 5,
+          "physical_mask": 738570796769174,
+          "full_minimum_cut": 2,
+          "H_outdegree": [
+            2,
+            2,
+            2,
+            2,
+            2
+          ]
+        }
+      ]
+    },
+    {
+      "frame": 4,
+      "role": "weighted_ports_q1_difference_paths",
+      "status": "PASS",
+      "q": 1,
+      "port_weights": [
+        2,
+        3
+      ],
+      "word_length": 4,
+      "history": [
+        {
+          "step": 0,
+          "physical_mask": 2216916177423360,
+          "full_minimum_cut": 2,
+          "H_outdegree": [
+            4,
+            2,
+            1,
+            0
+          ]
+        },
+        {
+          "step": 1,
+          "physical_mask": 2216916177423361,
+          "full_minimum_cut": 2,
+          "H_outdegree": [
+            3,
+            3,
+            1,
+            0
+          ]
+        },
+        {
+          "step": 2,
+          "physical_mask": 2216916177423363,
+          "full_minimum_cut": 2,
+          "H_outdegree": [
+            2,
+            4,
+            1,
+            0
+          ]
+        },
+        {
+          "step": 3,
+          "physical_mask": 2216916177423367,
+          "full_minimum_cut": 2,
+          "H_outdegree": [
+            1,
+            4,
+            2,
+            0
+          ]
+        },
+        {
+          "step": 4,
+          "physical_mask": 2216916177423431,
+          "full_minimum_cut": 2,
+          "H_outdegree": [
+            1,
+            4,
+            1,
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "frame": 5,
+      "role": "point_box_rejected_without_synchronization",
+      "status": "PASS",
+      "point_box_assignment_is_not_legal": true,
+      "bad_shore_out_cut": 1,
+      "root_star_is_legal": true,
+      "not_a_MAIN_counterexample": true
+    }
+  ],
+  "certificate_sha256": "2873b2c959cbd1074502adaf2a78884b34311bdadc5a592cd0e1c318bf596166",
+  "constructed_branch_counts": {
+    "difference_path": 5,
+    "lower_cycle_exact_stem_return": 1,
+    "mixed_cycle": 1,
+    "upper_cycle_exact_stem_return": 1
+  },
+  "orientation_component_enumeration": false,
+  "main_status": "OPEN",
+  "universal_quantifiers_from": "analytic proof, not the controls"
+}
