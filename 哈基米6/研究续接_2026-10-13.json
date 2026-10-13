@@ -1,0 +1,84 @@
+{
+  "date": "2026-10-13",
+  "last_updated_local": "2026-10-13T14:22:04.611312+08:00",
+  "work_directory": "D:\\Users\\Desktop\\2k+1_complete_2026-10-07\\哈基米6",
+  "user_directly_authorized_sibling_work_directory": true,
+  "main_status": "OPEN",
+  "regularization_used": false,
+  "latest_formally_recorded_primary_result": 171,
+  "next_primary_result": 172,
+  "candidate_result": 172,
+  "candidate_document": 262,
+  "candidate_registered_in_primary": false,
+  "status": "CONDITIONAL_GENERAL_ENTRANCE_AND_ACCURATE_CIRCLE_RETURN_PROVED_UNIVERSAL_SUPPLY_OPEN",
+  "read_primary_current_record": "研究探索172_指定端口删除的刚性割链_2026-10-13.md",
+  "primary_formal_state_sha256": "8f9d13376a5deb6f0ecca2a3804a287ed307580999f2590a56260f30bd1b1f9d",
+  "proved_conditionally": {
+    "172.1": "q=k；冻结背景β>=s>=1、当前核内至少k-s弧强时，真实H-only入口到任意指定欧拉H；界k n^3+m_H，s=k时直接差异翻。",
+    "172.2": "每份H的2k最小割岸均f>=1时，任意两欧拉H代表冻结背景逐圈准确合流；不要求全部trace β>=1。",
+    "172.3": "商平衡非H证书从圈起点到达全部圈点，且商实际词已供应时，执行商前缀、反圈、倒放商前缀；全部辅助准确返回，界2|W|+|J|。"
+  },
+  "proof_inputs": {
+    "internal_augmentation": "Ito et al. arXiv:2110.11585 Theorem 1；已核对作者PDF。",
+    "eulerian_completion": "主线research_global_scope.md §2/2.1全局物理多面体整数性，商平衡固定子图+剩余1/2分数完成。",
+    "commercial_path": "172.3须实际给定商词/具体商连通性/较小MAIN；不存在免费静态入口。"
+  },
+  "general_obstructions": {
+    "no_universal_near_state": "根删后的t块分划给根出入>=k t-e(P)。三个独立外点的任意规模简单非OSP阈值族，指定SD核商没有任何近层定向。",
+    "split_budget_not_automatic": "任意素数n>=13的k2同族存在完整2强、β=1、内部强度0的源；互补割供给不能推出两个统一最小值相加达k。",
+    "balanced_certificate_not_universal": "k平行圈加一根端口族的所有有向简单H圈均全支撑；每核点背景度1，商平衡到达证书不存在，而圈内拓扑序交错仍合法。"
+  },
+  "not_proved": [
+    "任意far源到欧拉H",
+    "全部单向零背景面的无条件宏步",
+    "任意背景的欧拉代表环境合流",
+    "一般商平衡证书供给",
+    "任意far冻结纤维",
+    "AC",
+    "MAIN"
+  ],
+  "finite_controls": {
+    "original_controls": 3,
+    "borrow_control": 1,
+    "forward_physical_letters": 49,
+    "complete_original_directed_cut_rows": 4048692,
+    "audits": [
+      "controls_independent_audit.json",
+      "borrow_control_independent_audit.json"
+    ],
+    "status": "PASS",
+    "no_orientation_component_search": true,
+    "general_ito_algorithm_implemented": false,
+    "universal_quantifiers_from_analysis_and_cited_theorems_not_samples": true
+  },
+  "primary_preservation": {
+    "status": "PASS",
+    "main_status": "OPEN",
+    "registered_sources_unchanged": 426,
+    "latest_primary_result": 171,
+    "next_primary_result": 172,
+    "primary_state_path": "D:\\Users\\Desktop\\2k+1_complete_2026-10-07\\2k+1\\研究推进状态_2026-10-13_结果171.json",
+    "primary_state_sha256": "8f9d13376a5deb6f0ecca2a3804a287ed307580999f2590a56260f30bd1b1f9d",
+    "source_sha256": "0c346e7cba714fe176283b7f291ceea93c6429180d077eb273b2d20d02adf0e9",
+    "check_is_file_integrity_not_independent_mathematical_reproof": true
+  },
+  "further_run_stopped": true,
+  "stop_reason": "已有一般条件机制，但从任意源获得供给/商平衡证书仍无普遍动态终止；一般反证排除把证书强加为必要条件。不扩大有限分类或重启大搜索。",
+  "source_hashes": {
+    "README.md": "d65458f6bba01ba947f1230629a39b502151d403068f576d070f7b61fbe98439",
+    "研究结果172候选_背景割供给与高层欧拉入口_2026-10-13.md": "54458d160145a9cd215a803e38a6868964ba03938d3cca262cc09eb0606b0d6c",
+    "研究结果172候选_续_商平衡背景与单圈准确借还_2026-10-13.md": "27342a1478883f7e2a1e59fd96dd7bb10dd0a37e01916a061212e6bfd67c55d6",
+    "研究发散_无近层商与零背景割障碍_2026-10-13.md": "322de153112e025134d08b399da0f95e45f5ba0f83a817e39a6763585f72200c",
+    "construct_controls.py": "356af1551534b540bb1932dea5ed7747ac81bfc56a346f743393060b4e9f6056",
+    "audit_controls.py": "372d0750a3c5540ae168a523196a505a6f609ff93fb7d0f97910063fca85764c",
+    "controls_certificate.json": "9ff47c9b2de0679efea83b01399f2014d9931852fb7ba19ab446044eb895fa8e",
+    "controls_independent_audit.json": "cc383c6dd330f0c90e98b94b56164f3c1308a020aca748e1fe650cd85fa2ddc7",
+    "construct_borrow_control.py": "6f2379fa98a30b91db6993b2900317e91998bb88aa245cfb4effd1da04198200",
+    "audit_borrow_control.py": "7ae07e1142fcd32354709d6045d5440addd713c88560ade492b486f422a2cf0e",
+    "borrow_control_certificate.json": "2acda2cfc37b3f6ed4113e740f9ccaa93e23e69766a7e3b4fdddb01ded7dd73a",
+    "borrow_control_independent_audit.json": "14407772bba8d05a43d817786f8800488667d4a881d33a6d89df1d76f37f7d12",
+    "check_source_integrity.py": "0c346e7cba714fe176283b7f291ceea93c6429180d077eb273b2d20d02adf0e9",
+    "source_integrity.json": "f141dd2015748b48adcd8453e38fe1f18c4c83b0a81cd6d9d3613f2916a85c18",
+    "record_branch_state.py": "914768a09238082c5ba3629f86b11a3fab9081ec3ed4c0c416f393d2c89d3ae4"
+  }
+}

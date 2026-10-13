@@ -1,0 +1,53 @@
+{
+  "date_local": "2026-10-13",
+  "timezone": "Asia/Shanghai",
+  "workspace_branch": "哈米基64",
+  "location_authorization": "User explicitly requested this sibling directory for the current exploration; earlier research-location restriction is superseded for this work.",
+  "main_status": "OPEN",
+  "read_formal_frontier": 171,
+  "next_formal_result_at_read_entry": 172,
+  "formal_result_registered_here": false,
+  "regularization_used": false,
+  "experiments_run": true,
+  "experiment_scope": "Selected literal controls of derived mechanisms only; no orientation-component or homology enumeration.",
+  "background_search_started": false,
+  "route": "REAL_CIRCULATION_SPACE_AND_UNION_OF_BAD_BOND_CONES",
+  "record": "续接_交集商图与带预算消交叉_2026-10-13.md",
+  "previous_record": "循环流与坏割锥的整体拓扑路线_2026-10-13.md",
+  "elementary_derivations": [
+    "Every legal full orientation admits a strictly positive circulation with its exact physical signs.",
+    "A finite polygonal path in the good real-flow space yields a legal single-identity reversal word; zero identities are certified by a k-arc-strong deletion orientation.",
+    "The good-flow space and the physical orientation flip graph have exactly corresponding connected components.",
+    "Bad flows can be covered using only bond shores and k-1 allowed outgoing identities.",
+    "Each bad bond cone is the inverse image of a negative orthant under a surjective linear projection; its lineality codimension is cut_size-k+1, at least k+2.",
+    "For k=2, good flows are exactly circulations satisfying the strict polygon inequality on every cut.",
+    "Every finite bad-cone intersection admits an exact mixed-quotient cycle/DAG classification, a physical circulation witness, and a dimension formula.",
+    "Same- and mixed-polarity uncrossing give uniform cone inclusions and exact physical allowed-set budget identities.",
+    "On intersections meeting the lower good-flow layer, the nonempty-intersection index complex admits finite laminarization by strictly decreasing shore-size potential. This is only an index-complex result."
+  ],
+  "screened_obstructions": [
+    "Bad cones themselves are full dimensional, although their lineality has large codimension.",
+    "Opposite bad cones may intersect in a noncontractible sphere; ordinary good-cover nerve reasoning is not automatic.",
+    "Uniform k-dependent flow-ratio certificates do not cover all legal sources, already in arbitrarily large simple complete graphs.",
+    "Even two same-shore cones can have an intersection with the lower good-flow layer containing at least binomial(2r,r) components, for arbitrary r and arbitrarily large simple graphs satisfying the original threshold."
+  ],
+  "unproved": [
+    "Connectedness of the unrestricted good-flow space under lambda >= 2k+1.",
+    "Vanishing of degree d-2 reduced cohomology of the bad-cone union.",
+    "A graph-specific cone-elimination or safe continuous-detour mechanism with a termination proof.",
+    "MAIN."
+  ],
+  "status": "CONTINUATION_STOPPED_INDEX_UNCROSSING_PROVED_INTERNAL_INTERSECTION_TOPOLOGY_OPEN",
+  "selected_control_script": "核验_交集商图与层流障碍.py",
+  "selected_control_output": "核验_交集商图与层流障碍.json",
+  "selected_control_status": "PASS",
+  "stop_rule": "Do not replace a general method with increasing graph sizes, cone signatures, finite homology computations, or bounded enumeration.",
+  "startup_required_read": "../2k+1/研究启动必读_方法与停止规则_2026-10-12.md",
+  "latest_main_state_read": "../2k+1/研究续接_2026-10-13_结果172进行中.json",
+  "main_state_read_boundary": "2026-10-13T11:37:59+08:00",
+  "additional_main_ledgers_read": [
+    "../2k+1/研究探索172_最小割窄面与回路构造保持_2026-10-13.md",
+    "../2k+1/研究探索172_指定端口删除的刚性割链_2026-10-13.md"
+  ],
+  "old_formal_sources_modified": false
+}

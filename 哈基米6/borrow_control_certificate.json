@@ -1,0 +1,276 @@
+{
+  "status": "CONSTRUCTED",
+  "main_status": "OPEN",
+  "source_sha256": "6f2379fa98a30b91db6993b2900317e91998bb88aa245cfb4effd1da04198200",
+  "regularization_used": false,
+  "orientation_component_search_used": false,
+  "k": 2,
+  "n_core": 13,
+  "n_vertices": 14,
+  "edges": [
+    {
+      "id": "H_step1_0",
+      "u": 0,
+      "v": 1,
+      "kind": "H"
+    },
+    {
+      "id": "H_step1_1",
+      "u": 1,
+      "v": 2,
+      "kind": "H"
+    },
+    {
+      "id": "H_step1_2",
+      "u": 2,
+      "v": 3,
+      "kind": "H"
+    },
+    {
+      "id": "H_step1_3",
+      "u": 3,
+      "v": 4,
+      "kind": "H"
+    },
+    {
+      "id": "H_step1_4",
+      "u": 4,
+      "v": 5,
+      "kind": "H"
+    },
+    {
+      "id": "H_step1_5",
+      "u": 5,
+      "v": 6,
+      "kind": "H"
+    },
+    {
+      "id": "H_step1_6",
+      "u": 6,
+      "v": 7,
+      "kind": "H"
+    },
+    {
+      "id": "H_step1_7",
+      "u": 7,
+      "v": 8,
+      "kind": "H"
+    },
+    {
+      "id": "H_step1_8",
+      "u": 8,
+      "v": 9,
+      "kind": "H"
+    },
+    {
+      "id": "H_step1_9",
+      "u": 9,
+      "v": 10,
+      "kind": "H"
+    },
+    {
+      "id": "H_step1_10",
+      "u": 10,
+      "v": 11,
+      "kind": "H"
+    },
+    {
+      "id": "H_step1_11",
+      "u": 11,
+      "v": 12,
+      "kind": "H"
+    },
+    {
+      "id": "H_step1_12",
+      "u": 12,
+      "v": 0,
+      "kind": "H"
+    },
+    {
+      "id": "H_step2_0",
+      "u": 2,
+      "v": 0,
+      "kind": "H"
+    },
+    {
+      "id": "H_step2_1",
+      "u": 3,
+      "v": 1,
+      "kind": "H"
+    },
+    {
+      "id": "H_step2_2",
+      "u": 4,
+      "v": 2,
+      "kind": "H"
+    },
+    {
+      "id": "H_step2_3",
+      "u": 5,
+      "v": 3,
+      "kind": "H"
+    },
+    {
+      "id": "H_step2_4",
+      "u": 6,
+      "v": 4,
+      "kind": "H"
+    },
+    {
+      "id": "H_step2_5",
+      "u": 7,
+      "v": 5,
+      "kind": "H"
+    },
+    {
+      "id": "H_step2_6",
+      "u": 8,
+      "v": 6,
+      "kind": "H"
+    },
+    {
+      "id": "H_step2_7",
+      "u": 9,
+      "v": 7,
+      "kind": "H"
+    },
+    {
+      "id": "H_step2_8",
+      "u": 10,
+      "v": 8,
+      "kind": "H"
+    },
+    {
+      "id": "H_step2_9",
+      "u": 11,
+      "v": 9,
+      "kind": "H"
+    },
+    {
+      "id": "H_step2_10",
+      "u": 12,
+      "v": 10,
+      "kind": "H"
+    },
+    {
+      "id": "H_step2_11",
+      "u": 0,
+      "v": 11,
+      "kind": "H"
+    },
+    {
+      "id": "H_step2_12",
+      "u": 1,
+      "v": 12,
+      "kind": "H"
+    },
+    {
+      "id": "E_port_0",
+      "u": 13,
+      "v": 0,
+      "kind": "E"
+    },
+    {
+      "id": "E_port_1",
+      "u": 13,
+      "v": 1,
+      "kind": "E"
+    },
+    {
+      "id": "E_port_2",
+      "u": 13,
+      "v": 2,
+      "kind": "E"
+    },
+    {
+      "id": "E_port_3",
+      "u": 3,
+      "v": 13,
+      "kind": "E"
+    },
+    {
+      "id": "E_port_4",
+      "u": 4,
+      "v": 13,
+      "kind": "E"
+    },
+    {
+      "id": "E_port_5",
+      "u": 5,
+      "v": 13,
+      "kind": "E"
+    },
+    {
+      "id": "E_port_6",
+      "u": 6,
+      "v": 13,
+      "kind": "E"
+    },
+    {
+      "id": "E_port_7",
+      "u": 7,
+      "v": 13,
+      "kind": "E"
+    },
+    {
+      "id": "E_port_8",
+      "u": 13,
+      "v": 8,
+      "kind": "E"
+    },
+    {
+      "id": "E_port_9",
+      "u": 13,
+      "v": 9,
+      "kind": "E"
+    },
+    {
+      "id": "E_port_10",
+      "u": 13,
+      "v": 10,
+      "kind": "E"
+    },
+    {
+      "id": "E_port_11",
+      "u": 13,
+      "v": 11,
+      "kind": "E"
+    },
+    {
+      "id": "E_port_12",
+      "u": 13,
+      "v": 12,
+      "kind": "E"
+    }
+  ],
+  "source_mask": 0,
+  "target_mask": 8195,
+  "word": [
+    26,
+    0,
+    1,
+    13,
+    26
+  ],
+  "commercial_prefix": [
+    26
+  ],
+  "directed_core_cycle": [
+    0,
+    1,
+    13
+  ],
+  "root_anchor": 0,
+  "connector_positions": [
+    26,
+    29,
+    27,
+    28
+  ],
+  "connector_orientation_mask": 67108864,
+  "expected_beta": 0,
+  "expected_undirected_strength": 5,
+  "expected_quotient_root_out": 5,
+  "expected_quotient_root_in": 8,
+  "scope": "One supplied balanced certificate on a critical-degree far state; not certificate-existence proof"
+}

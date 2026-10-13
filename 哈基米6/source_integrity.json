@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "main_status": "OPEN",
+  "registered_sources_unchanged": 426,
+  "latest_primary_result": 171,
+  "next_primary_result": 172,
+  "primary_state_path": "D:\\Users\\Desktop\\2k+1_complete_2026-10-07\\2k+1\\研究推进状态_2026-10-13_结果171.json",
+  "primary_state_sha256": "8f9d13376a5deb6f0ecca2a3804a287ed307580999f2590a56260f30bd1b1f9d",
+  "source_sha256": "0c346e7cba714fe176283b7f291ceea93c6429180d077eb273b2d20d02adf0e9",
+  "check_is_file_integrity_not_independent_mathematical_reproof": true
+}

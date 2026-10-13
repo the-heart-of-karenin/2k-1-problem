@@ -1,0 +1,1091 @@
+{
+  "status": "CONSTRUCTED",
+  "main_status": "OPEN",
+  "regularization_used": false,
+  "source_sha256": "356af1551534b540bb1932dea5ed7747ac81bfc56a346f743393060b4e9f6056",
+  "scope": "Three selected controls of analytic mechanisms; not universal state search",
+  "ito_general_algorithm_implemented": false,
+  "orientation_component_search_used": false,
+  "controls": [
+    {
+      "name": "prime_far_only_non_eulerian_entry",
+      "k": 2,
+      "n_core": 13,
+      "n_vertices": 16,
+      "edges": [
+        {
+          "id": "H_1_0",
+          "u": 0,
+          "v": 1,
+          "kind": "H"
+        },
+        {
+          "id": "H_1_1",
+          "u": 1,
+          "v": 2,
+          "kind": "H"
+        },
+        {
+          "id": "H_1_2",
+          "u": 2,
+          "v": 3,
+          "kind": "H"
+        },
+        {
+          "id": "H_1_3",
+          "u": 3,
+          "v": 4,
+          "kind": "H"
+        },
+        {
+          "id": "H_1_4",
+          "u": 4,
+          "v": 5,
+          "kind": "H"
+        },
+        {
+          "id": "H_1_5",
+          "u": 5,
+          "v": 6,
+          "kind": "H"
+        },
+        {
+          "id": "H_1_6",
+          "u": 6,
+          "v": 7,
+          "kind": "H"
+        },
+        {
+          "id": "H_1_7",
+          "u": 7,
+          "v": 8,
+          "kind": "H"
+        },
+        {
+          "id": "H_1_8",
+          "u": 8,
+          "v": 9,
+          "kind": "H"
+        },
+        {
+          "id": "H_1_9",
+          "u": 9,
+          "v": 10,
+          "kind": "H"
+        },
+        {
+          "id": "H_1_10",
+          "u": 10,
+          "v": 11,
+          "kind": "H"
+        },
+        {
+          "id": "H_1_11",
+          "u": 11,
+          "v": 12,
+          "kind": "H"
+        },
+        {
+          "id": "H_1_12",
+          "u": 12,
+          "v": 0,
+          "kind": "H"
+        },
+        {
+          "id": "H_2_0",
+          "u": 0,
+          "v": 2,
+          "kind": "H"
+        },
+        {
+          "id": "H_2_1",
+          "u": 1,
+          "v": 3,
+          "kind": "H"
+        },
+        {
+          "id": "H_2_2",
+          "u": 2,
+          "v": 4,
+          "kind": "H"
+        },
+        {
+          "id": "H_2_3",
+          "u": 3,
+          "v": 5,
+          "kind": "H"
+        },
+        {
+          "id": "H_2_4",
+          "u": 4,
+          "v": 6,
+          "kind": "H"
+        },
+        {
+          "id": "H_2_5",
+          "u": 5,
+          "v": 7,
+          "kind": "H"
+        },
+        {
+          "id": "H_2_6",
+          "u": 6,
+          "v": 8,
+          "kind": "H"
+        },
+        {
+          "id": "H_2_7",
+          "u": 7,
+          "v": 9,
+          "kind": "H"
+        },
+        {
+          "id": "H_2_8",
+          "u": 8,
+          "v": 10,
+          "kind": "H"
+        },
+        {
+          "id": "H_2_9",
+          "u": 9,
+          "v": 11,
+          "kind": "H"
+        },
+        {
+          "id": "H_2_10",
+          "u": 10,
+          "v": 12,
+          "kind": "H"
+        },
+        {
+          "id": "H_2_11",
+          "u": 11,
+          "v": 0,
+          "kind": "H"
+        },
+        {
+          "id": "H_2_12",
+          "u": 12,
+          "v": 1,
+          "kind": "H"
+        },
+        {
+          "id": "E_b_0",
+          "u": 14,
+          "v": 0,
+          "kind": "E"
+        },
+        {
+          "id": "E_a_0",
+          "u": 0,
+          "v": 13,
+          "kind": "E"
+        },
+        {
+          "id": "E_b_1",
+          "u": 14,
+          "v": 1,
+          "kind": "E"
+        },
+        {
+          "id": "E_a_1",
+          "u": 1,
+          "v": 13,
+          "kind": "E"
+        },
+        {
+          "id": "E_b_2",
+          "u": 14,
+          "v": 2,
+          "kind": "E"
+        },
+        {
+          "id": "E_a_2",
+          "u": 2,
+          "v": 13,
+          "kind": "E"
+        },
+        {
+          "id": "E_b_3",
+          "u": 14,
+          "v": 3,
+          "kind": "E"
+        },
+        {
+          "id": "E_a_3",
+          "u": 3,
+          "v": 13,
+          "kind": "E"
+        },
+        {
+          "id": "E_b_4",
+          "u": 14,
+          "v": 4,
+          "kind": "E"
+        },
+        {
+          "id": "E_a_4",
+          "u": 4,
+          "v": 13,
+          "kind": "E"
+        },
+        {
+          "id": "E_b_5",
+          "u": 14,
+          "v": 5,
+          "kind": "E"
+        },
+        {
+          "id": "E_a_5",
+          "u": 5,
+          "v": 13,
+          "kind": "E"
+        },
+        {
+          "id": "E_a_6",
+          "u": 13,
+          "v": 6,
+          "kind": "E"
+        },
+        {
+          "id": "E_b_6",
+          "u": 6,
+          "v": 14,
+          "kind": "E"
+        },
+        {
+          "id": "E_a_7",
+          "u": 13,
+          "v": 7,
+          "kind": "E"
+        },
+        {
+          "id": "E_b_7",
+          "u": 7,
+          "v": 14,
+          "kind": "E"
+        },
+        {
+          "id": "E_a_8",
+          "u": 13,
+          "v": 8,
+          "kind": "E"
+        },
+        {
+          "id": "E_b_8",
+          "u": 8,
+          "v": 14,
+          "kind": "E"
+        },
+        {
+          "id": "E_a_9",
+          "u": 13,
+          "v": 9,
+          "kind": "E"
+        },
+        {
+          "id": "E_b_9",
+          "u": 9,
+          "v": 14,
+          "kind": "E"
+        },
+        {
+          "id": "E_a_10",
+          "u": 13,
+          "v": 10,
+          "kind": "E"
+        },
+        {
+          "id": "E_b_10",
+          "u": 10,
+          "v": 14,
+          "kind": "E"
+        },
+        {
+          "id": "E_a_11",
+          "u": 13,
+          "v": 11,
+          "kind": "E"
+        },
+        {
+          "id": "E_b_11",
+          "u": 11,
+          "v": 14,
+          "kind": "E"
+        },
+        {
+          "id": "E_a_12",
+          "u": 13,
+          "v": 12,
+          "kind": "E"
+        },
+        {
+          "id": "E_b_12",
+          "u": 12,
+          "v": 14,
+          "kind": "E"
+        },
+        {
+          "id": "E_w_0",
+          "u": 15,
+          "v": 0,
+          "kind": "E"
+        },
+        {
+          "id": "E_w_1",
+          "u": 15,
+          "v": 1,
+          "kind": "E"
+        },
+        {
+          "id": "E_w_2",
+          "u": 2,
+          "v": 15,
+          "kind": "E"
+        },
+        {
+          "id": "E_w_3",
+          "u": 3,
+          "v": 15,
+          "kind": "E"
+        },
+        {
+          "id": "E_w_4",
+          "u": 4,
+          "v": 15,
+          "kind": "E"
+        }
+      ],
+      "source_mask": 1,
+      "target_mask": 67108863,
+      "word": [
+        0,
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        15,
+        17,
+        19,
+        21,
+        23,
+        25,
+        14,
+        16,
+        18,
+        20,
+        22,
+        24
+      ],
+      "mode": "conditional_entry_and_exact_eulerian_alignment",
+      "normalization_letters": 1,
+      "cycle_batches": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ],
+        [
+          13,
+          15,
+          17,
+          19,
+          21,
+          23,
+          25,
+          14,
+          16,
+          18,
+          20,
+          22,
+          24
+        ]
+      ],
+      "expected_beta": 1,
+      "expected_source_internal_strength": 1,
+      "expected_undirected_strength": 5,
+      "expected_quotient_root_out": 16,
+      "expected_quotient_root_in": 15,
+      "dense_cut_vertices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        13
+      ]
+    },
+    {
+      "name": "zero_beta_but_all_core_mincuts_paid",
+      "k": 2,
+      "n_core": 8,
+      "n_vertices": 11,
+      "edges": [
+        {
+          "id": "H_0_0",
+          "u": 0,
+          "v": 4,
+          "kind": "H"
+        },
+        {
+          "id": "H_0_1",
+          "u": 0,
+          "v": 5,
+          "kind": "H"
+        },
+        {
+          "id": "H_0_2",
+          "u": 6,
+          "v": 0,
+          "kind": "H"
+        },
+        {
+          "id": "H_0_3",
+          "u": 7,
+          "v": 0,
+          "kind": "H"
+        },
+        {
+          "id": "H_1_0",
+          "u": 4,
+          "v": 1,
+          "kind": "H"
+        },
+        {
+          "id": "H_1_1",
+          "u": 1,
+          "v": 5,
+          "kind": "H"
+        },
+        {
+          "id": "H_1_2",
+          "u": 1,
+          "v": 6,
+          "kind": "H"
+        },
+        {
+          "id": "H_1_3",
+          "u": 7,
+          "v": 1,
+          "kind": "H"
+        },
+        {
+          "id": "H_2_0",
+          "u": 4,
+          "v": 2,
+          "kind": "H"
+        },
+        {
+          "id": "H_2_1",
+          "u": 5,
+          "v": 2,
+          "kind": "H"
+        },
+        {
+          "id": "H_2_2",
+          "u": 2,
+          "v": 6,
+          "kind": "H"
+        },
+        {
+          "id": "H_2_3",
+          "u": 2,
+          "v": 7,
+          "kind": "H"
+        },
+        {
+          "id": "H_3_0",
+          "u": 3,
+          "v": 4,
+          "kind": "H"
+        },
+        {
+          "id": "H_3_1",
+          "u": 5,
+          "v": 3,
+          "kind": "H"
+        },
+        {
+          "id": "H_3_2",
+          "u": 6,
+          "v": 3,
+          "kind": "H"
+        },
+        {
+          "id": "H_3_3",
+          "u": 3,
+          "v": 7,
+          "kind": "H"
+        },
+        {
+          "id": "E_to_0",
+          "u": 0,
+          "v": 8,
+          "kind": "E"
+        },
+        {
+          "id": "E_from_0",
+          "u": 8,
+          "v": 0,
+          "kind": "E"
+        },
+        {
+          "id": "E_to_1",
+          "u": 1,
+          "v": 8,
+          "kind": "E"
+        },
+        {
+          "id": "E_from_1",
+          "u": 8,
+          "v": 1,
+          "kind": "E"
+        },
+        {
+          "id": "E_to_2",
+          "u": 2,
+          "v": 8,
+          "kind": "E"
+        },
+        {
+          "id": "E_from_2",
+          "u": 8,
+          "v": 2,
+          "kind": "E"
+        },
+        {
+          "id": "E_to_3",
+          "u": 3,
+          "v": 8,
+          "kind": "E"
+        },
+        {
+          "id": "E_from_3",
+          "u": 8,
+          "v": 3,
+          "kind": "E"
+        },
+        {
+          "id": "E_to_4",
+          "u": 4,
+          "v": 9,
+          "kind": "E"
+        },
+        {
+          "id": "E_from_4",
+          "u": 9,
+          "v": 4,
+          "kind": "E"
+        },
+        {
+          "id": "E_to_5",
+          "u": 5,
+          "v": 9,
+          "kind": "E"
+        },
+        {
+          "id": "E_from_5",
+          "u": 9,
+          "v": 5,
+          "kind": "E"
+        },
+        {
+          "id": "E_to_6",
+          "u": 6,
+          "v": 9,
+          "kind": "E"
+        },
+        {
+          "id": "E_from_6",
+          "u": 9,
+          "v": 6,
+          "kind": "E"
+        },
+        {
+          "id": "E_to_7",
+          "u": 7,
+          "v": 9,
+          "kind": "E"
+        },
+        {
+          "id": "E_from_7",
+          "u": 9,
+          "v": 7,
+          "kind": "E"
+        },
+        {
+          "id": "E_w_0",
+          "u": 10,
+          "v": 0,
+          "kind": "E"
+        },
+        {
+          "id": "E_w_1",
+          "u": 10,
+          "v": 1,
+          "kind": "E"
+        },
+        {
+          "id": "E_w_2",
+          "u": 2,
+          "v": 10,
+          "kind": "E"
+        },
+        {
+          "id": "E_w_3",
+          "u": 3,
+          "v": 10,
+          "kind": "E"
+        },
+        {
+          "id": "E_w_4",
+          "u": 0,
+          "v": 10,
+          "kind": "E"
+        }
+      ],
+      "source_mask": 0,
+      "target_mask": 65535,
+      "word": [
+        0,
+        4,
+        5,
+        9,
+        10,
+        2,
+        1,
+        13,
+        12,
+        8,
+        11,
+        3,
+        6,
+        14,
+        15,
+        7
+      ],
+      "mode": "mincut_supply_eulerian_alignment",
+      "normalization_letters": 0,
+      "cycle_batches": [
+        [
+          0,
+          4,
+          5,
+          9,
+          10,
+          2
+        ],
+        [
+          1,
+          13,
+          12,
+          8,
+          11,
+          3
+        ],
+        [
+          6,
+          14,
+          15,
+          7
+        ]
+      ],
+      "expected_beta": 0,
+      "expected_source_internal_strength": 2,
+      "expected_undirected_strength": 5,
+      "expected_quotient_root_out": 11,
+      "expected_quotient_root_in": 10
+    },
+    {
+      "name": "legal_ambient_source_below_split_strength",
+      "k": 2,
+      "n_core": 13,
+      "n_vertices": 16,
+      "edges": [
+        {
+          "id": "H_1_0",
+          "u": 0,
+          "v": 1,
+          "kind": "H"
+        },
+        {
+          "id": "H_1_1",
+          "u": 1,
+          "v": 2,
+          "kind": "H"
+        },
+        {
+          "id": "H_1_2",
+          "u": 2,
+          "v": 3,
+          "kind": "H"
+        },
+        {
+          "id": "H_1_3",
+          "u": 3,
+          "v": 4,
+          "kind": "H"
+        },
+        {
+          "id": "H_1_4",
+          "u": 4,
+          "v": 5,
+          "kind": "H"
+        },
+        {
+          "id": "H_1_5",
+          "u": 5,
+          "v": 6,
+          "kind": "H"
+        },
+        {
+          "id": "H_1_6",
+          "u": 6,
+          "v": 7,
+          "kind": "H"
+        },
+        {
+          "id": "H_1_7",
+          "u": 7,
+          "v": 8,
+          "kind": "H"
+        },
+        {
+          "id": "H_1_8",
+          "u": 8,
+          "v": 9,
+          "kind": "H"
+        },
+        {
+          "id": "H_1_9",
+          "u": 9,
+          "v": 10,
+          "kind": "H"
+        },
+        {
+          "id": "H_1_10",
+          "u": 10,
+          "v": 11,
+          "kind": "H"
+        },
+        {
+          "id": "H_1_11",
+          "u": 11,
+          "v": 12,
+          "kind": "H"
+        },
+        {
+          "id": "H_1_12",
+          "u": 12,
+          "v": 0,
+          "kind": "H"
+        },
+        {
+          "id": "H_2_0",
+          "u": 0,
+          "v": 2,
+          "kind": "H"
+        },
+        {
+          "id": "H_2_1",
+          "u": 1,
+          "v": 3,
+          "kind": "H"
+        },
+        {
+          "id": "H_2_2",
+          "u": 2,
+          "v": 4,
+          "kind": "H"
+        },
+        {
+          "id": "H_2_3",
+          "u": 3,
+          "v": 5,
+          "kind": "H"
+        },
+        {
+          "id": "H_2_4",
+          "u": 4,
+          "v": 6,
+          "kind": "H"
+        },
+        {
+          "id": "H_2_5",
+          "u": 5,
+          "v": 7,
+          "kind": "H"
+        },
+        {
+          "id": "H_2_6",
+          "u": 6,
+          "v": 8,
+          "kind": "H"
+        },
+        {
+          "id": "H_2_7",
+          "u": 7,
+          "v": 9,
+          "kind": "H"
+        },
+        {
+          "id": "H_2_8",
+          "u": 8,
+          "v": 10,
+          "kind": "H"
+        },
+        {
+          "id": "H_2_9",
+          "u": 9,
+          "v": 11,
+          "kind": "H"
+        },
+        {
+          "id": "H_2_10",
+          "u": 10,
+          "v": 12,
+          "kind": "H"
+        },
+        {
+          "id": "H_2_11",
+          "u": 11,
+          "v": 0,
+          "kind": "H"
+        },
+        {
+          "id": "H_2_12",
+          "u": 12,
+          "v": 1,
+          "kind": "H"
+        },
+        {
+          "id": "E_b_0",
+          "u": 14,
+          "v": 0,
+          "kind": "E"
+        },
+        {
+          "id": "E_a_0",
+          "u": 0,
+          "v": 13,
+          "kind": "E"
+        },
+        {
+          "id": "E_b_1",
+          "u": 14,
+          "v": 1,
+          "kind": "E"
+        },
+        {
+          "id": "E_a_1",
+          "u": 1,
+          "v": 13,
+          "kind": "E"
+        },
+        {
+          "id": "E_b_2",
+          "u": 14,
+          "v": 2,
+          "kind": "E"
+        },
+        {
+          "id": "E_a_2",
+          "u": 2,
+          "v": 13,
+          "kind": "E"
+        },
+        {
+          "id": "E_b_3",
+          "u": 14,
+          "v": 3,
+          "kind": "E"
+        },
+        {
+          "id": "E_a_3",
+          "u": 3,
+          "v": 13,
+          "kind": "E"
+        },
+        {
+          "id": "E_b_4",
+          "u": 14,
+          "v": 4,
+          "kind": "E"
+        },
+        {
+          "id": "E_a_4",
+          "u": 4,
+          "v": 13,
+          "kind": "E"
+        },
+        {
+          "id": "E_b_5",
+          "u": 14,
+          "v": 5,
+          "kind": "E"
+        },
+        {
+          "id": "E_a_5",
+          "u": 5,
+          "v": 13,
+          "kind": "E"
+        },
+        {
+          "id": "E_a_6",
+          "u": 13,
+          "v": 6,
+          "kind": "E"
+        },
+        {
+          "id": "E_b_6",
+          "u": 6,
+          "v": 14,
+          "kind": "E"
+        },
+        {
+          "id": "E_a_7",
+          "u": 13,
+          "v": 7,
+          "kind": "E"
+        },
+        {
+          "id": "E_b_7",
+          "u": 7,
+          "v": 14,
+          "kind": "E"
+        },
+        {
+          "id": "E_a_8",
+          "u": 13,
+          "v": 8,
+          "kind": "E"
+        },
+        {
+          "id": "E_b_8",
+          "u": 8,
+          "v": 14,
+          "kind": "E"
+        },
+        {
+          "id": "E_a_9",
+          "u": 13,
+          "v": 9,
+          "kind": "E"
+        },
+        {
+          "id": "E_b_9",
+          "u": 9,
+          "v": 14,
+          "kind": "E"
+        },
+        {
+          "id": "E_a_10",
+          "u": 13,
+          "v": 10,
+          "kind": "E"
+        },
+        {
+          "id": "E_b_10",
+          "u": 10,
+          "v": 14,
+          "kind": "E"
+        },
+        {
+          "id": "E_a_11",
+          "u": 13,
+          "v": 11,
+          "kind": "E"
+        },
+        {
+          "id": "E_b_11",
+          "u": 11,
+          "v": 14,
+          "kind": "E"
+        },
+        {
+          "id": "E_a_12",
+          "u": 13,
+          "v": 12,
+          "kind": "E"
+        },
+        {
+          "id": "E_b_12",
+          "u": 12,
+          "v": 14,
+          "kind": "E"
+        },
+        {
+          "id": "E_w_0",
+          "u": 15,
+          "v": 0,
+          "kind": "E"
+        },
+        {
+          "id": "E_w_1",
+          "u": 15,
+          "v": 1,
+          "kind": "E"
+        },
+        {
+          "id": "E_w_2",
+          "u": 2,
+          "v": 15,
+          "kind": "E"
+        },
+        {
+          "id": "E_w_3",
+          "u": 3,
+          "v": 15,
+          "kind": "E"
+        },
+        {
+          "id": "E_w_4",
+          "u": 4,
+          "v": 15,
+          "kind": "E"
+        }
+      ],
+      "source_mask": 16769056,
+      "target_mask": 16769024,
+      "word": [
+        5
+      ],
+      "mode": "condition_gap_and_one_actual_bridge",
+      "expected_beta": 1,
+      "expected_source_internal_strength": 0,
+      "expected_target_internal_strength": 1,
+      "expected_undirected_strength": 5,
+      "expected_quotient_root_out": 16,
+      "expected_quotient_root_in": 15,
+      "deficient_core_trace": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    }
+  ]
+}

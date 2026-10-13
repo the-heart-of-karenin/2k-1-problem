@@ -1,0 +1,31 @@
+{
+  "status": "PASS",
+  "main_status": "OPEN",
+  "constructor_imported": false,
+  "regularization_used": false,
+  "orientation_component_search_used": false,
+  "physical_masks_merged_by_degree": false,
+  "certificate_sha256": "2acda2cfc37b3f6ed4113e740f9ccaa93e23e69766a7e3b4fdddb01ded7dd73a",
+  "source_sha256": "7ae07e1142fcd32354709d6045d5440addd713c88560ade492b486f422a2cf0e",
+  "physical_letters": 5,
+  "state_visits": 11,
+  "distinct_physical_masks": 6,
+  "original_complete_directed_cut_rows": 180202,
+  "scalar_endpoint_checks": 30,
+  "beta": 0,
+  "min_background_on_core_mincuts": 0,
+  "original_min_strength": 2,
+  "smallest_prefix_core_strength": 1,
+  "undirected_strength": 5,
+  "all_nuclear_vertices_have_critical_degree": true,
+  "initial_circle_single_flips_illegal": [
+    "H_step1_0",
+    "H_step1_1",
+    "H_step2_0"
+  ],
+  "quotient_initial_both_far": true,
+  "connector_quotient_balanced": true,
+  "connector_reaches_entire_circle": true,
+  "every_non_circle_identity_returned": true,
+  "scope": "One explicit five-letter macro; no universal balanced-certificate existence claim"
+}

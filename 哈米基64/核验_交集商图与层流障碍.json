@@ -1,0 +1,90 @@
+{
+  "status": "PASS",
+  "scope": "Selected exact controls of the general mechanism; no orientation-state enumeration.",
+  "universal_quantifiers_from_analytic_proof": true,
+  "MAIN_claimed": false,
+  "laminar_obstruction": {
+    "r": 2,
+    "s": 7,
+    "vertices": 21,
+    "identities": 165,
+    "original_undirected_mincut": 13,
+    "nonlinear_intersection": {
+      "nonlinear": true,
+      "dimension": 51,
+      "lineality_dimension": 48,
+      "quotient_vertices": 2,
+      "forced_zero_conflicts": 94,
+      "cycle_witness": {
+        "nonzero_identities": 3,
+        "exact_conservation": true
+      }
+    },
+    "linear_intersection": {
+      "nonlinear": false,
+      "dimension": 49,
+      "lineality_dimension": 49,
+      "quotient_vertices": 1,
+      "forced_zero_conflicts": 96,
+      "cycle_witness": null
+    },
+    "two_distinct_cut_assignments": [
+      {
+        "active_mincut": 2,
+        "positive_flow_exact": true
+      },
+      {
+        "active_mincut": 2,
+        "positive_flow_exact": true
+      }
+    ]
+  },
+  "mixed_quotient": {
+    "vertices": 37,
+    "cyclic": {
+      "nonlinear": true,
+      "dimension": 1,
+      "lineality_dimension": 0,
+      "quotient_vertices": 37,
+      "forced_zero_conflicts": 0,
+      "cycle_witness": {
+        "nonzero_identities": 37,
+        "exact_conservation": true
+      }
+    },
+    "acyclic": {
+      "nonlinear": false,
+      "dimension": 0,
+      "lineality_dimension": 0,
+      "quotient_vertices": 37,
+      "forced_zero_conflicts": 0,
+      "cycle_witness": null
+    }
+  },
+  "uncrossing_inclusions": [
+    {
+      "mixed_polarity": false,
+      "strict_budget_loss": false,
+      "coordinatewise_cone_inclusion": true,
+      "exact_budget_identity": true
+    },
+    {
+      "mixed_polarity": false,
+      "strict_budget_loss": true,
+      "coordinatewise_cone_inclusion": true,
+      "exact_budget_identity": true
+    },
+    {
+      "mixed_polarity": true,
+      "strict_budget_loss": false,
+      "coordinatewise_cone_inclusion": true,
+      "exact_budget_identity": true
+    },
+    {
+      "mixed_polarity": true,
+      "strict_budget_loss": true,
+      "coordinatewise_cone_inclusion": true,
+      "exact_budget_identity": true
+    }
+  ]
+}

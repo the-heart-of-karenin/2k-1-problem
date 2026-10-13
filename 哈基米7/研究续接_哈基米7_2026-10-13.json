@@ -1,0 +1,76 @@
+{
+  "date": "2026-10-13",
+  "recorded_local": "2026-10-13T14:22:48+08:00",
+  "status": "GENERAL_STRUCTURAL_EXTENSION_AND_SHARP_FAR_AUGMENTATION_OBSTRUCTION_RECORDED",
+  "main_status": "OPEN",
+  "regularization_used": false,
+  "candidate_result": 172,
+  "candidate_document": 262,
+  "original_formal_registration_changed": false,
+  "latest_formally_recorded_result_observed": 171,
+  "original_main_state_last_updated": "2026-10-13T11:37:59+08:00",
+  "new_files_directory_authorized_by_latest_user": "哈基米7",
+  "no_original_research_files_written_by_this_run": true,
+  "proof": "研究结果172候选_余量阈值以下的残余宽度与原割唯一实现_2026-10-13.md",
+  "route_report": "研究报告_一般推广与下一执行关口_2026-10-13.md",
+  "general_results": [
+    "任意SD余量q、任意合法商高度：min(mu_sigma(X),q)=min(min_Z delta_G(X+Z)-2k,q)。",
+    "mu<q的原割完成及两向有向极小完成均唯一，物理支撑随合法商历史固定。",
+    "q>=2：mu=1 iff某原2k+1最小割具有该核trace；固定核根后层状，最多2|C|-3份无向split。",
+    "指定非H身份g商删后仍k强：任意q>=1的删g零宽岸准确来自跨g的原临界割，唯一完整岸组成链，长度<=|C|-1。",
+    "受保护E-g弱分量的实际首次g提升接口，可用旧5静态删g扩张推广到所有诱导SD余量；较小MAIN/具体P连通和当前分量k强仍是条件。"
+  ],
+  "sharp_general_obstructions": [
+    "q=1可在原lambda=2k+2、双向far商态出现mu=1虚拟窄面；同一图两份far商态mu可为1和2。",
+    "mu=2<q的唯一原割完成可以交叉，不能把所有低宽度岸当层状。",
+    "任意k>=2,t>=k的双端口奇圈：lambda=2k+2、商双向far、全部mu>=2，冻结外部的全严格残余目标仍因核点总出度差1而不存在。"
+  ],
+  "audit": {
+    "status": "PASS",
+    "prescribed_cases": 6,
+    "literal_directed_full_cut_rows": 82552,
+    "literal_undirected_full_cut_rows": 73812,
+    "constructor_not_imported_by_auditor": true,
+    "universal_quantifiers_from_analytic_proof": true,
+    "orientation_state_enumeration": false
+  },
+  "background_search_started": false,
+  "subagents_spawned": false,
+  "not_proved": [
+    "任意far源到Eulerian H或近层",
+    "任意源的无条件端口准备",
+    "一般冻结纤维连通",
+    "动态获得受保护E-g弱分量",
+    "AC构造保持",
+    "AC",
+    "MAIN"
+  ],
+  "next_general_method_obligation": "原割树/链的实际支付与宽割保护同一宏步完成，并给辅助归还及严格终止；或提出承担完整背景阈值和物理提升的归约。",
+  "stop_rule_applied": "没有新的无条件执行/归约机制，未转为树形、链长、核点数或余量上限的有限分类。",
+  "resume_required_read": [
+    "../2k+1/研究启动必读_方法与停止规则_2026-10-12.md",
+    "该启动必读指向的最新主线状态",
+    "研究结果172候选_余量阈值以下的残余宽度与原割唯一实现_2026-10-13.md",
+    "研究报告_一般推广与下一执行关口_2026-10-13.md"
+  ],
+  "artifact_sha256": {
+    "README.md": "e57c2c96a31ace8e5e950a23a9f579a25fe6dd88a2fb184824c6e9698d4d43f4",
+    "研究结果172候选_余量阈值以下的残余宽度与原割唯一实现_2026-10-13.md": "8754c875b8d20c14c0f2fb03e62ebb5717cec1f66fc08b6cee9e9108bad9c6f5",
+    "研究报告_一般推广与下一执行关口_2026-10-13.md": "fb483e2023db1e5a37fcc6abe501bd59fe1f341026649e724a91405d31320ee7",
+    "build_residual_width_controls.py": "4167afa59eff012fb2c822cd0e020073d80a7acd947ca9ab360fc76270a86cf6",
+    "audit_residual_width_controls.py": "daca855fc9dbc49d6ef8749803ac5690fbd53ef85747dc8291ca66a237d547bc",
+    "residual_width_controls.json": "2b807660b444a98f934f1a86f5298b32233137dc949ab0dd730bf157d20a12cf",
+    "residual_width_audit.json": "29d84f0804028584756341163bd7437e29c939bed9ba029ab73d49e8e5de6813",
+    "record_research_checkpoint.py": "bba6a41ce04ea4c57800b03700233a0b681241636c5fd018d5f7710e86cdb059"
+  },
+  "read_only_sources_sha256_at_checkpoint": {
+    "研究启动必读_方法与停止规则_2026-10-12.md": "70e0c3b1b56403805c5a0ef4b6781abd782d7aea3f2516b20826a9416d851ad3",
+    "研究续接_2026-10-13_结果172进行中.json": "b742e298e6fe4b097ea43fc15d33934a9aa79a848a4da6886defb8e80f611a14",
+    "研究结果170_双单位入守卫与任意端口尾准备_2026-10-12.md": "4370ac4238ea5ed615df4e52441195cdbf0413512138add33ced6f3ae10a8845",
+    "研究结果171_最大余量核的最小割递归与通用商代表_2026-10-13.md": "17e8007c95ef77c221a9dcb3cececa99c51af0675e28bfdb8c2e7d1d3c29e964",
+    "研究探索172_高层代表入口与静态近核选择障碍_2026-10-13.md": "ac7c4529e5f553cce02876c977bd551556aaac83cd96514b5d3ebdd299234ab1",
+    "研究探索172_最小割窄面与回路构造保持_2026-10-13.md": "0236a3b3e8c69547531c3ed7eb34bdecaf7ef1a4017b0c919bfa609dc3b484d2",
+    "研究探索172_指定端口删除的刚性割链_2026-10-13.md": "635176cb534c6d68ecab1efd61acb16a7f4c7ed9f3ba95c9f7e9b96435765937",
+    "研究结果101_严格核内平行束合流与全部副本供给_2026-10-09.md": "10caeccc6a45775a69a57ed6c7c5cf51d52a3146c6cfc0daeed92dfbd6d350f2"
+  }
+}
